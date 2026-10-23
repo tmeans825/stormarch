@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Animated Grass Tile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -240724216946569868, guid: 641bb5d3d781ef74d84bb01d1c8bee73, type: 3}
+  - {fileID: 4079268338704347108, guid: 641bb5d3d781ef74d84bb01d1c8bee73, type: 3}
+  - {fileID: 5623962079953915632, guid: 641bb5d3d781ef74d84bb01d1c8bee73, type: 3}
+  - {fileID: -8598861171392697173, guid: 641bb5d3d781ef74d84bb01d1c8bee73, type: 3}
+  - {fileID: -2869080799897081270, guid: 641bb5d3d781ef74d84bb01d1c8bee73, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

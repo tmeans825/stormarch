@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($PROFILE)",
+      "Bash(xargs grep *)"
+    ]
+  }
+}

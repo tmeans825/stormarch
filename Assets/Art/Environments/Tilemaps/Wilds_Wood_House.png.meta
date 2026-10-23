@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 079b65fe2f424c94d8c2ae77a0421ddd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -848727906952423214
+    second: Wilds_Wood_House_0
+  - first:
+      213: -7152609087342727617
+    second: Wilds_Wood_House_1
+  - first:
+      213: 2421894565185518190
+    second: Wilds_Wood_House_2
+  - first:
+      213: -7373980180843238072
+    second: Wilds_Wood_House_3
+  - first:
+      213: -6690926300077535766
+    second: Wilds_Wood_House_4
+  - first:
+      213: -7795439196677552852
+    second: Wilds_Wood_House_5
+  - first:
+      213: -1327686799303652293
+    second: Wilds_Wood_House_6
+  - first:
+      213: 1698322101111448398
+    second: Wilds_Wood_House_7
+  - first:
+      213: 6476051062486838375
+    second: Wilds_Wood_House_8
+  - first:
+      213: -6190217528511703268
+    second: Wilds_Wood_House_9
+  - first:
+      213: 2233777264267591817
+    second: Wilds_Wood_House_10
+  - first:
+      213: -8213539635262826812
+    second: Wilds_Wood_House_11
+  - first:
+      213: 1895516353131955223
+    second: Wilds_Wood_House_12
+  - first:
+      213: 7955557112697705909
+    second: Wilds_Wood_House_13
+  - first:
+      213: 8698841901907089785
+    second: Wilds_Wood_House_14
+  - first:
+      213: -8001927180019134195
+    second: Wilds_Wood_House_15
+  - first:
+      213: 3971018413446295408
+    second: Wilds_Wood_House_16
+  - first:
+      213: 2600050337776447119
+    second: Wilds_Wood_House_17
+  - first:
+      213: 8635847181995515810
+    second: Wilds_Wood_House_18
+  - first:
+      213: 2750674464343277679
+    second: Wilds_Wood_House_19
+  - first:
+      213: -9145874398083130089
+    second: Wilds_Wood_House_20
+  - first:
+      213: 6804233626692026616
+    second: Wilds_Wood_House_21
+  - first:
+      213: -635842230784985564
+    second: Wilds_Wood_House_22
+  - first:
+      213: 3370218379702141671
+    second: Wilds_Wood_House_23
+  - first:
+      213: 976585414450192994
+    second: Wilds_Wood_House_24
+  - first:
+      213: 8529091863530881478
+    second: Wilds_Wood_House_25
+  - first:
+      213: -2132358865501959390
+    second: Wilds_Wood_House_26
+  - first:
+      213: 6862882512488293578
+    second: Wilds_Wood_House_27
+  - first:
+      213: 470785358958344886
+    second: Wilds_Wood_House_28
+  - first:
+      213: -7772768202571906259
+    second: Wilds_Wood_House_29
+  - first:
+      213: 6349425955298236042
+    second: Wilds_Wood_House_30
+  - first:
+      213: 6824569456926648451
+    second: Wilds_Wood_House_0
+  - first:
+      213: -310143457873276041
+    second: Wilds_Wood_House_1
+  - first:
+      213: -6771799970145057081
+    second: Wilds_Wood_House_2
+  - first:
+      213: -6393948184424404347
+    second: Wilds_Wood_House_3
+  - first:
+      213: 7371936723050945701
+    second: Wilds_Wood_House_4
+  - first:
+      213: 676795546324261986
+    second: Wilds_Wood_House_5
+  - first:
+      213: -1694621051738339059
+    second: Wilds_Wood_House_6
+  - first:
+      213: -512426525966789487
+    second: Wilds_Wood_House_7
+  - first:
+      213: 4499051188863793813
+    second: Wilds_Wood_House_8
+  - first:
+      213: -4131271907228732337
+    second: Wilds_Wood_House_9
+  - first:
+      213: 4076000350491173418
+    second: Wilds_Wood_House_10
+  - first:
+      213: 53954752965989056
+    second: Wilds_Wood_House_11
+  - first:
+      213: 2311493437067468918
+    second: Wilds_Wood_House_12
+  - first:
+      213: 2442265856801553088
+    second: Wilds_Wood_House_13
+  - first:
+      213: -6784402932274474477
+    second: Wilds_Wood_House_14
+  - first:
+      213: 7651301764845077035
+    second: Wilds_Wood_House_15
+  - first:
+      213: 5199815387943310540
+    second: Wilds_Wood_House_16
+  - first:
+      213: -1895091755359123228
+    second: Wilds_Wood_House_17
+  - first:
+      213: 1778783623361557358
+    second: Wilds_Wood_House_18
+  - first:
+      213: -3543140430781059498
+    second: Wilds_Wood_House_19
+  - first:
+      213: 1309078021457286767
+    second: Wilds_Wood_House_20
+  - first:
+      213: -4258490824548234390
+    second: Wilds_Wood_House_21
+  - first:
+      213: -385768776289361793
+    second: Wilds_Wood_House_22
+  - first:
+      213: 215389563656691526
+    second: Wilds_Wood_House_23
+  - first:
+      213: -57869251314137827
+    second: Wilds_Wood_House_24
+  - first:
+      213: -3217179226610592170
+    second: Wilds_Wood_House_25
+  - first:
+      213: -2907700673242156963
+    second: Wilds_Wood_House_26
+  - first:
+      213: 6248294500559253724
+    second: Wilds_Wood_House_27
+  - first:
+      213: 5279947112059220403
+    second: Wilds_Wood_House_28
+  - first:
+      213: -3066653186874588905
+    second: Wilds_Wood_House_29
+  - first:
+      213: -1223424605288685825
+    second: Wilds_Wood_House_30
+  - first:
+      213: -914990319521862347
+    second: Wilds_Wood_House_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wilds_Wood_House_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e71153cdb5be50800000000000000
+      internalID: 6824569456926648451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7735d041b2622bbf0800000000000000
+      internalID: -310143457873276041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: -5, y: -10}
+        - {x: -5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c0814ecbb502a0800000000000000
+      internalID: -6771799970145057081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a212bb0022447a0800000000000000
+      internalID: -6393948184424404347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acdb1434616e4660800000000000000
+      internalID: 7371936723050945701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -10}
+        - {x: -4, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c593ca6f5746900800000000000000
+      internalID: 676795546324261986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09cc36c12f7b78e0800000000000000
+      internalID: -1694621051738339059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19413422ace73e8f0800000000000000
+      internalID: -512426525966789487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: -9, y: -10}
+        - {x: -9, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a76822837df6e30800000000000000
+      internalID: 4499051188863793813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44b41bb616caa6c0800000000000000
+      internalID: -4131271907228732337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -10}
+        - {x: -4, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e46329bcd09830800000000000000
+      internalID: 4076000350491173418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -10}
+        - {x: -4, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c25b7cdf8fafb000800000000000000
+      internalID: 53954752965989056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ad01c803141020800000000000000
+      internalID: 2311493437067468918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -4, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cab8b96bdba4e120800000000000000
+      internalID: 2442265856801553088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31259a87a75f8d1a0800000000000000
+      internalID: -6784402932274474477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 1}
+        - {x: -10, y: 10}
+        - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2209e2ba62ee2a60800000000000000
+      internalID: 7651301764845077035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 10}
+        - {x: 5, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc498f7ab84792840800000000000000
+      internalID: 5199815387943310540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e84c01d61843b5e0800000000000000
+      internalID: -1895091755359123228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -10}
+        - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: -5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e637fb2f7428fa810800000000000000
+      internalID: 1778783623361557358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e68f1fc8c34dec0800000000000000
+      internalID: -3543140430781059498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f669b345687ca2210800000000000000
+      internalID: 1309078021457286767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bca83582dc6e4c0800000000000000
+      internalID: -4258490824548234390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70e5d3875975aaf0800000000000000
+      internalID: -385768776289361793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 10}
+        - {x: 5, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f551ebaa73df200800000000000000
+      internalID: 215389563656691526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15c008f838623ff0800000000000000
+      internalID: -57869251314137827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: 0}
+        - {x: -10, y: 9}
+        - {x: -9, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6561c1be9884a53d0800000000000000
+      internalID: -3217179226610592170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: 1}
+        - {x: 10, y: 1}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50bc32b4a5c5a7d0800000000000000
+      internalID: -2907700673242156963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: 1}
+        - {x: 10, y: 1}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07cdd4eb666b650800000000000000
+      internalID: 6248294500559253724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_28
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b32f8ce3264940800000000000000
+      internalID: 5279947112059220403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 1}
+        - {x: 1, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7114503ac2f0175d0800000000000000
+      internalID: -3066653186874588905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9b40bdc5850fe0800000000000000
+      internalID: -1223424605288685825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wilds_Wood_House_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d6af7f62d4d43f0800000000000000
+      internalID: -914990319521862347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

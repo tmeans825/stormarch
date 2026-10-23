@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Bullet
+  - Environment
+  - Pooler
+  - AudioManager
+  - Critter
+  - Kipling
+  - Interactable
+  - Metal
+  - Fire
+  - Inventory Panel
+  - Invisible Actor
+  - PressurePlate
+  - Computer
+  - Indoors
+  - Environment - Overhead
+  - Breakable
+  - Flee
+  - Shield Trigger
+  - SPS
+  - OilThistle
+  - Shield Wall
+  - SlowTime
+  - BugZone
+  - Light
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BlockingLayer
+  - EnemyBlockingLayer
+  - Obstacle
+  - 
+  - KiplingCanPass
+  - Kipling
+  - PlayerBullet
+  - EnemyBullet
+  - Critter
+  - Pickup
+  - Grenade
+  - TerrainBlockingLayer
+  - VentTrigger
+  - Kipling Guardrails
+  - KiplingPass BulletHit
+  - PostProcessing
+  - BlockObstaclesOnly
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2737614319
+    locked: 0
+  - name: NPC
+    uniqueID: 1565741409
+    locked: 0
+  - name: Item
+    uniqueID: 1898105053
+    locked: 0
+  - name: Player
+    uniqueID: 1729555533
+    locked: 0
+  - name: Dynamic Depth
+    uniqueID: 2741105465
+    locked: 0
+  - name: Overhead
+    uniqueID: 632939175
+    locked: 0

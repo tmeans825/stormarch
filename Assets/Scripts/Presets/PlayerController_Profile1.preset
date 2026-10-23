@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerController_Profile1
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 7c26d5e8c3f861d48932e550bcd0d4b6, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: baseSpeed
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slowdownModifier
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heads.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chestSpriteSheetName
+    value: Chest_Base_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: legsSpriteSheetName
+    value: Legs_Base_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slideSpeed
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slideSlowdownModifier
+    value: 0.96
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slideCooldownIncrement
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: health
+    value: 99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxHealth
+    value: 99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bleedAmount
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bleedCooldown
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bloodPing
+    value: 
+    objectReference: {fileID: 635166219956159331, guid: 3ddc2c30c32674e4481ad7648e7b8545, type: 3}
+  - target: {fileID: 0}
+    propertyPath: blood
+    value: 
+    objectReference: {fileID: 4167262922812567972, guid: f6222cec5abe48f488b7a29f14828124, type: 3}
+  - target: {fileID: 0}
+    propertyPath: pooler
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shotgunSpread
+    value: 25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shotgunBulletCount
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunSpriteSheetName
+    value: Traditional_Rifle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunCooldownTimes.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunCooldownTimes.Array.data[0]
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunCooldownTimes.Array.data[1]
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunCooldownTimes.Array.data[2]
+    value: 0.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletSpeeds.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletSpeeds.Array.data[0]
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletSpeeds.Array.data[1]
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletSpeeds.Array.data[2]
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletLifetime.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletLifetime.Array.data[0]
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletLifetime.Array.data[1]
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gunBulletLifetime.Array.data[2]
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bullet
+    value: 
+    objectReference: {fileID: 1923387441980126875, guid: 0a2b45f5f777f6744b3230d4c0de730b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: shields
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxShields
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shieldRechargeCooldown
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shieldRechargeSpeed
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shieldPing
+    value: 
+    objectReference: {fileID: 3226753065707742569, guid: 83ac232f44c53644f954a2d63430ad59, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[0]
+    value: 
+    objectReference: {fileID: -6133307905049854499, guid: 9348d590fef7f954b8286c636985f5a3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[1]
+    value: 
+    objectReference: {fileID: -7219370837863438393, guid: 9348d590fef7f954b8286c636985f5a3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[2]
+    value: 
+    objectReference: {fileID: -480885125307481859, guid: 9348d590fef7f954b8286c636985f5a3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[3]
+    value: 
+    objectReference: {fileID: 1378042109751815090, guid: 9348d590fef7f954b8286c636985f5a3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[4]
+    value: 
+    objectReference: {fileID: 1792080940031846574, guid: d16fa43e2263359469ee685aa0254dd7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[5]
+    value: 
+    objectReference: {fileID: -8479724947943532987, guid: d16fa43e2263359469ee685aa0254dd7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[6]
+    value: 
+    objectReference: {fileID: 2510912378074094997, guid: d16fa43e2263359469ee685aa0254dd7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: skinCollection.Array.data[7]
+    value: 
+    objectReference: {fileID: -8593640015197785777, guid: d16fa43e2263359469ee685aa0254dd7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[0]
+    value: 
+    objectReference: {fileID: -8982396145818039349, guid: 0c91a1ef5ce125741a5efb49b737fb79, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[1]
+    value: 
+    objectReference: {fileID: -7890505340052140127, guid: 0c91a1ef5ce125741a5efb49b737fb79, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[2]
+    value: 
+    objectReference: {fileID: -4412739400653904897, guid: 0c91a1ef5ce125741a5efb49b737fb79, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[3]
+    value: 
+    objectReference: {fileID: -7394970387773676340, guid: 0c91a1ef5ce125741a5efb49b737fb79, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[4]
+    value: 
+    objectReference: {fileID: 1578604598728638921, guid: 7b9b097a7d352c340870adb3f70cdb6d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[5]
+    value: 
+    objectReference: {fileID: 2296516003745035825, guid: 7b9b097a7d352c340870adb3f70cdb6d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[6]
+    value: 
+    objectReference: {fileID: -8411644576612536262, guid: 7b9b097a7d352c340870adb3f70cdb6d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hairCollection.Array.data[7]
+    value: 
+    objectReference: {fileID: -7295335995242556965, guid: 7b9b097a7d352c340870adb3f70cdb6d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: healthShieldsObj
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bloodVignette
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

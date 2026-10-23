@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8728384141195906896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1323115586879570999, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446131127217433245, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371368, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963308664371413, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_Name
+      value: Firebomb - Oil Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963309791003684, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003963309791003685, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020134065394591640, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990172694699976622, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}
+      propertyPath: vfx
+      value: 
+      objectReference: {fileID: 7958335952827062253, guid: c76c526b75b254d45bfc538e3108bb70, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: faf6a70a5591c3b4bbb2d791eb09d923, type: 3}

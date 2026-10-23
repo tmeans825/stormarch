@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3514280508563613892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545240, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545242, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_Name
+      value: ElectroShock Bullet Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256431845742545242, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884256516288042548, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717687481194235668, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: sounds.Array.data[1].spatialBlend
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075432053314146258, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: bulletType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075432053314146258, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: electricity
+      value: 
+      objectReference: {fileID: 6534238075368251437, guid: b9fdde30fed63274582a65db325f9c60, type: 3}
+    - target: {fileID: 9075432053314146258, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}
+      propertyPath: batonStunParticles
+      value: 
+      objectReference: {fileID: 6361451029585188873, guid: d56db9f9466f3584da96edf3b78aa6b3, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c5eb372193e51b4da9d3d459340fc22, type: 3}

@@ -1,0 +1,1330 @@
+fileFormatVersion: 2
+guid: 33625fb6370e7e6448f5b7ccfd160935
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -296784228900320262
+    second: Infestation_0
+  - first:
+      213: 3271736358906081665
+    second: Infestation_1
+  - first:
+      213: -5150171982044209999
+    second: Infestation_2
+  - first:
+      213: -3933538194174299646
+    second: Infestation_3
+  - first:
+      213: -5010962174074113823
+    second: Infestation_4
+  - first:
+      213: -919040619774688658
+    second: Infestation_5
+  - first:
+      213: 4665696218176760751
+    second: Infestation_6
+  - first:
+      213: -771082575071634922
+    second: Infestation_7
+  - first:
+      213: -6956842775666244444
+    second: Infestation_8
+  - first:
+      213: -4177807273961337783
+    second: Infestation_9
+  - first:
+      213: 4554367035621023979
+    second: Infestation_10
+  - first:
+      213: 7580256135420738130
+    second: Infestation_11
+  - first:
+      213: 5578516964944665642
+    second: Infestation_0
+  - first:
+      213: -5034507584806826300
+    second: Infestation_1
+  - first:
+      213: 8315026559698964028
+    second: Infestation_2
+  - first:
+      213: 6508184530875599782
+    second: Infestation_3
+  - first:
+      213: -3330748021811400825
+    second: Infestation_4
+  - first:
+      213: 1028958390414975661
+    second: Infestation_5
+  - first:
+      213: 4000909125192889405
+    second: Infestation_6
+  - first:
+      213: 3744756784348392149
+    second: Infestation_7
+  - first:
+      213: -2394906361448345952
+    second: Infestation_8
+  - first:
+      213: -3581012655911619937
+    second: Infestation_9
+  - first:
+      213: 4917732575369970022
+    second: Infestation_10
+  - first:
+      213: -4190909426179515526
+    second: Infestation_11
+  - first:
+      213: 1879335195503784058
+    second: Infestation_12
+  - first:
+      213: 230662800489029550
+    second: Infestation_13
+  - first:
+      213: -8293023819435192135
+    second: Infestation_14
+  - first:
+      213: 8397499618814956715
+    second: Infestation_15
+  - first:
+      213: 5762430602235470385
+    second: Infestation_16
+  - first:
+      213: -3512131219143610661
+    second: Infestation_17
+  - first:
+      213: 4379279799066492786
+    second: Infestation_18
+  - first:
+      213: 6384732631279284655
+    second: Infestation_19
+  - first:
+      213: -7655715805071649612
+    second: Infestation_20
+  - first:
+      213: 5545313364100424074
+    second: Infestation_21
+  - first:
+      213: -2361791513473476926
+    second: Infestation_22
+  - first:
+      213: -3692589268719648505
+    second: Infestation_23
+  - first:
+      213: 4137859480871687074
+    second: Infestation_12
+  - first:
+      213: -7509891400874782932
+    second: Infestation_13
+  - first:
+      213: -4570332724069194084
+    second: Infestation_14
+  - first:
+      213: 6696702616305161623
+    second: Infestation_15
+  - first:
+      213: 7329294993206425417
+    second: Infestation_16
+  - first:
+      213: -1261779125103437642
+    second: Infestation_17
+  - first:
+      213: -8132531983529386916
+    second: Infestation_18
+  - first:
+      213: 3686582227044750996
+    second: Infestation_19
+  - first:
+      213: 6115532571601552235
+    second: Infestation_20
+  - first:
+      213: 4436562002328404783
+    second: Infestation_21
+  - first:
+      213: 6735940966021396768
+    second: Infestation_22
+  - first:
+      213: -3984835446799439638
+    second: Infestation_23
+  - first:
+      213: 391478133671698784
+    second: Infestation_24
+  - first:
+      213: 5174568107486435662
+    second: Infestation_25
+  - first:
+      213: 8485355978044423217
+    second: Infestation_26
+  - first:
+      213: 7316680680831980848
+    second: Infestation_27
+  - first:
+      213: 6299271772545952764
+    second: Infestation_28
+  - first:
+      213: 2965444632713791399
+    second: Infestation_29
+  - first:
+      213: 6874626173249085012
+    second: Infestation_30
+  - first:
+      213: 4697299788314247260
+    second: Infestation_31
+  - first:
+      213: -273340888378209138
+    second: Infestation_32
+  - first:
+      213: -2952700229965752978
+    second: Infestation_33
+  - first:
+      213: -2735565757759768171
+    second: Infestation_34
+  - first:
+      213: -8820951640220196776
+    second: Infestation_35
+  - first:
+      213: -8919376917775002016
+    second: Infestation_36
+  - first:
+      213: 4253386313742244112
+    second: Infestation_37
+  - first:
+      213: -4449397569295208903
+    second: Infestation_38
+  - first:
+      213: 8826489931029993918
+    second: Infestation_39
+  - first:
+      213: 445105929296478491
+    second: Infestation_40
+  - first:
+      213: -5697085822996343494
+    second: Infestation_41
+  - first:
+      213: 2877123613311481347
+    second: Infestation_42
+  - first:
+      213: -4931242975217318957
+    second: Infestation_43
+  - first:
+      213: -1109426262247807828
+    second: Infestation_44
+  - first:
+      213: 9083509185376693935
+    second: Infestation_45
+  - first:
+      213: 5314299199913659742
+    second: Infestation_46
+  - first:
+      213: 5704989288262132289
+    second: Infestation_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Infestation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c54059f9fda6d40800000000000000
+      internalID: 5578516964944665642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 180
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce449c8606d12ab0800000000000000
+      internalID: -5034507584806826300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 180
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e8bc4e998e46370800000000000000
+      internalID: 8315026559698964028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab48875957b15a50800000000000000
+      internalID: 6508184530875599782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 168
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fa89b325ec6c1d0800000000000000
+      internalID: -3330748021811400825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 168
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a7555438974e00800000000000000
+      internalID: 1028958390414975661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34bdb1d6a5168730800000000000000
+      internalID: 4000909125192889405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 156
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dae15d647c08f330800000000000000
+      internalID: 3744756784348392149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 156
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae4c8f5a5593ced0800000000000000
+      internalID: -2394906361448345952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b53466ffad4ec0800000000000000
+      internalID: -3581012655911619937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 144
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6614b47d8bb4f3440800000000000000
+      internalID: 4917732575369970022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 144
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bdbbec416e6d5c0800000000000000
+      internalID: -4190909426179515526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d6d74641ac6930800000000000000
+      internalID: 4137859480871687074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 132
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f091d5f8187c790800000000000000
+      internalID: -7509891400874782932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9623842a9ae290c0800000000000000
+      internalID: -4570332724069194084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955c438c877fec50800000000000000
+      internalID: 6696702616305161623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 120
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473e1cc6f2e6b560800000000000000
+      internalID: 7329294993206425417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d43722924d7ee0800000000000000
+      internalID: -1261779125103437642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c5a3dbf31732f80800000000000000
+      internalID: -8132531983529386916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 108
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496554ec00f592330800000000000000
+      internalID: 3686582227044750996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 108
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6344aee87cbed450800000000000000
+      internalID: 6115532571601552235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c7cc92a5d19d30800000000000000
+      internalID: 4436562002328404783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 96
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029f4bbbe9eda7d50800000000000000
+      internalID: 6735940966021396768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 96
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86221164503b8c0800000000000000
+      internalID: -3984835446799439638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061a5d6d94fce6500800000000000000
+      internalID: 391478133671698784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 84
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e495bc81742cfc740800000000000000
+      internalID: 5174568107486435662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 84
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c33100e4a02c570800000000000000
+      internalID: 8485355978044423217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03514f350521a8560800000000000000
+      internalID: 7316680680831980848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb2f3a5d428b6750800000000000000
+      internalID: 6299271772545952764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 72
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a78efd8e20672920800000000000000
+      internalID: 2965444632713791399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e5d1cc414976f50800000000000000
+      internalID: 6874626173249085012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 60
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500df52549203140800000000000000
+      internalID: 4697299788314247260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_32
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 60
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c80a509e5e43cf0800000000000000
+      internalID: -273340888378209138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e655da0f8c6e507d0800000000000000
+      internalID: -2952700229965752978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b10ddf61590ad0800000000000000
+      internalID: -2735565757759768171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 48
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850a6c7f73fa59580800000000000000
+      internalID: -8820951640220196776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066d33e33f1083480800000000000000
+      internalID: -8919376917775002016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 36
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0195d132150170b30800000000000000
+      internalID: 4253386313742244112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_38
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 36
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e2ca11c709042c0800000000000000
+      internalID: -4449397569295208903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9da98d3ddfd7a70800000000000000
+      internalID: 8826489931029993918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1103230c755d2600800000000000000
+      internalID: 445105929296478491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a359361e0a2efe0b0800000000000000
+      internalID: -5697085822996343494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306b152cea89de720800000000000000
+      internalID: 2877123613311481347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 12
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3080114a4b09bb0800000000000000
+      internalID: -4931242975217318957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 12
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4ea3641b68a90f0800000000000000
+      internalID: -1109426262247807828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae20644a7b1f0e70800000000000000
+      internalID: 9083509185376693935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d0ff847fe20c940800000000000000
+      internalID: 5314299199913659742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Infestation_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142e54608813c2f40800000000000000
+      internalID: 5704989288262132289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2389 @@
+fileFormatVersion: 2
+guid: d9f414af306c0944b84bee0145a9107e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 128447817078662811
+    second: Chest_0
+  - first:
+      213: -3858282122883282789
+    second: Chest_1
+  - first:
+      213: -1738171005848380732
+    second: Chest_2
+  - first:
+      213: -6690672460264606831
+    second: Chest_3
+  - first:
+      213: -3411312720072810433
+    second: Chest_4
+  - first:
+      213: -5434691796468564478
+    second: Chest_5
+  - first:
+      213: 7068626973754144762
+    second: Chest_6
+  - first:
+      213: -7504777107043348935
+    second: Chest_7
+  - first:
+      213: -851095677626256972
+    second: Chest_8
+  - first:
+      213: -507021890272947972
+    second: Chest_9
+  - first:
+      213: 7688991729332770935
+    second: Chest_10
+  - first:
+      213: -6496184809239870555
+    second: Chest_11
+  - first:
+      213: 5062191209215963900
+    second: Chest_12
+  - first:
+      213: 1688150160462226503
+    second: Chest_13
+  - first:
+      213: -566133896840300015
+    second: Chest_14
+  - first:
+      213: -7980725079394992215
+    second: Chest_15
+  - first:
+      213: -3602817456972171030
+    second: Chest_16
+  - first:
+      213: 54995866606619978
+    second: Chest_17
+  - first:
+      213: 4959054923891014640
+    second: Chest_18
+  - first:
+      213: -2140947534375917899
+    second: Chest_19
+  - first:
+      213: 1209620817720771853
+    second: Chest_20
+  - first:
+      213: 234581834653057674
+    second: Chest_21
+  - first:
+      213: -6625133052650072377
+    second: Chest_22
+  - first:
+      213: -2923894797522494194
+    second: Chest_23
+  - first:
+      213: -854795479189344933
+    second: Chest_24
+  - first:
+      213: 4293160192381205824
+    second: Chest_25
+  - first:
+      213: 6782235774148843712
+    second: Chest_26
+  - first:
+      213: 3091344619559544031
+    second: Chest_27
+  - first:
+      213: -8875391333214377266
+    second: Chest_28
+  - first:
+      213: -2667709243942141297
+    second: Chest_29
+  - first:
+      213: 4901167444331182401
+    second: Chest_30
+  - first:
+      213: -7980582419198931377
+    second: Chest_31
+  - first:
+      213: 4934337359304797260
+    second: Chest_32
+  - first:
+      213: 2002993077293398292
+    second: Chest_33
+  - first:
+      213: -7747887681006335712
+    second: Chest_34
+  - first:
+      213: -7675417587002378860
+    second: Chest_35
+  - first:
+      213: -267863438245291391
+    second: Chest_36
+  - first:
+      213: -5046969579367531264
+    second: Chest_37
+  - first:
+      213: -3831029665486280223
+    second: Chest_38
+  - first:
+      213: 6030940705718855811
+    second: Chest_39
+  - first:
+      213: 5502814584691556599
+    second: Chest_40
+  - first:
+      213: 5340393078563625133
+    second: Chest_41
+  - first:
+      213: 7248010742664771083
+    second: Chest_42
+  - first:
+      213: 5931630618929688041
+    second: Chest_43
+  - first:
+      213: 8881954717576409837
+    second: Chest_0
+  - first:
+      213: -8684673811581996912
+    second: Chest_1
+  - first:
+      213: 8255787148730746174
+    second: Chest_2
+  - first:
+      213: -4795988316437363119
+    second: Chest_3
+  - first:
+      213: 7409277639690235260
+    second: Chest_4
+  - first:
+      213: 883966835276658966
+    second: Chest_5
+  - first:
+      213: 5359069035804831060
+    second: Chest_6
+  - first:
+      213: 5263830846477478202
+    second: Chest_7
+  - first:
+      213: 9000827655387696801
+    second: Chest_8
+  - first:
+      213: -6565646693531610780
+    second: Chest_9
+  - first:
+      213: 4741984676084784319
+    second: Chest_10
+  - first:
+      213: -7520766924362705549
+    second: Chest_11
+  - first:
+      213: 220992002724244020
+    second: Chest_12
+  - first:
+      213: -6687046104093530808
+    second: Chest_13
+  - first:
+      213: 8133426899416955113
+    second: Chest_14
+  - first:
+      213: -8307778702533914832
+    second: Chest_15
+  - first:
+      213: 8559837804428344660
+    second: Chest_16
+  - first:
+      213: -8362142259427662395
+    second: Chest_17
+  - first:
+      213: 7255879599661099063
+    second: Chest_18
+  - first:
+      213: 6007755129885321582
+    second: Chest_19
+  - first:
+      213: -5509006408578433674
+    second: Chest_20
+  - first:
+      213: 5186053003060080877
+    second: Chest_21
+  - first:
+      213: -981982618527442964
+    second: Chest_22
+  - first:
+      213: -3558978125847814094
+    second: Chest_23
+  - first:
+      213: 5638692160436718648
+    second: Chest_24
+  - first:
+      213: 1351062780189356496
+    second: Chest_25
+  - first:
+      213: -8751978172275295538
+    second: Chest_26
+  - first:
+      213: 69252637096674341
+    second: Chest_27
+  - first:
+      213: 8463318573378669383
+    second: Chest_28
+  - first:
+      213: 2541917673472247191
+    second: Chest_29
+  - first:
+      213: -653002299065281816
+    second: Chest_30
+  - first:
+      213: -5269694957685311677
+    second: Chest_31
+  - first:
+      213: 1285291066090047910
+    second: Chest_32
+  - first:
+      213: 1411990794027385819
+    second: Chest_33
+  - first:
+      213: 258336058199502978
+    second: Chest_34
+  - first:
+      213: -2684663577064637851
+    second: Chest_35
+  - first:
+      213: -5507748825284401658
+    second: Chest_36
+  - first:
+      213: 7570819689694539491
+    second: Chest_37
+  - first:
+      213: 4443553737431549522
+    second: Chest_38
+  - first:
+      213: -1833235658304861459
+    second: Chest_39
+  - first:
+      213: -832861770069828510
+    second: Chest_40
+  - first:
+      213: -1734191843461960526
+    second: Chest_41
+  - first:
+      213: 8582174629229070398
+    second: Chest_42
+  - first:
+      213: -8993136722633533841
+    second: Chest_43
+  - first:
+      213: 790916510693160083
+    second: Chest_44
+  - first:
+      213: 1531233320700242110
+    second: Chest_45
+  - first:
+      213: -4031410975367970910
+    second: Chest_46
+  - first:
+      213: -864275475901094283
+    second: Chest_47
+  - first:
+      213: 689673494978370353
+    second: Chest_48
+  - first:
+      213: 4284422897655392241
+    second: Chest_49
+  - first:
+      213: 7127218345882363747
+    second: Chest_50
+  - first:
+      213: -5206951288542355247
+    second: Chest_51
+  - first:
+      213: 8881954717576409837
+    second: Chest_0
+  - first:
+      213: -8684673811581996912
+    second: Chest_1
+  - first:
+      213: 8255787148730746174
+    second: Chest_2
+  - first:
+      213: -4795988316437363119
+    second: Chest_3
+  - first:
+      213: 7409277639690235260
+    second: Chest_4
+  - first:
+      213: 883966835276658966
+    second: Chest_5
+  - first:
+      213: 5359069035804831060
+    second: Chest_6
+  - first:
+      213: 5263830846477478202
+    second: Chest_7
+  - first:
+      213: 9000827655387696801
+    second: Chest_8
+  - first:
+      213: -6565646693531610780
+    second: Chest_9
+  - first:
+      213: 4741984676084784319
+    second: Chest_10
+  - first:
+      213: -7520766924362705549
+    second: Chest_11
+  - first:
+      213: 220992002724244020
+    second: Chest_12
+  - first:
+      213: -6687046104093530808
+    second: Chest_13
+  - first:
+      213: 8133426899416955113
+    second: Chest_14
+  - first:
+      213: -8307778702533914832
+    second: Chest_15
+  - first:
+      213: 8559837804428344660
+    second: Chest_16
+  - first:
+      213: -8362142259427662395
+    second: Chest_17
+  - first:
+      213: 128447817078662811
+    second: Chest_0
+  - first:
+      213: -3858282122883282789
+    second: Chest_1
+  - first:
+      213: -1738171005848380732
+    second: Chest_2
+  - first:
+      213: -6690672460264606831
+    second: Chest_3
+  - first:
+      213: -3411312720072810433
+    second: Chest_4
+  - first:
+      213: -5434691796468564478
+    second: Chest_5
+  - first:
+      213: 7068626973754144762
+    second: Chest_6
+  - first:
+      213: -7504777107043348935
+    second: Chest_7
+  - first:
+      213: -851095677626256972
+    second: Chest_8
+  - first:
+      213: -507021890272947972
+    second: Chest_9
+  - first:
+      213: 7688991729332770935
+    second: Chest_10
+  - first:
+      213: -6496184809239870555
+    second: Chest_11
+  - first:
+      213: 5062191209215963900
+    second: Chest_12
+  - first:
+      213: 1688150160462226503
+    second: Chest_13
+  - first:
+      213: -566133896840300015
+    second: Chest_14
+  - first:
+      213: -7980725079394992215
+    second: Chest_15
+  - first:
+      213: -3602817456972171030
+    second: Chest_16
+  - first:
+      213: 54995866606619978
+    second: Chest_17
+  - first:
+      213: 7255879599661099063
+    second: Chest_18
+  - first:
+      213: 6007755129885321582
+    second: Chest_19
+  - first:
+      213: -5509006408578433674
+    second: Chest_20
+  - first:
+      213: 5186053003060080877
+    second: Chest_21
+  - first:
+      213: -981982618527442964
+    second: Chest_22
+  - first:
+      213: -3558978125847814094
+    second: Chest_23
+  - first:
+      213: 5638692160436718648
+    second: Chest_24
+  - first:
+      213: 1351062780189356496
+    second: Chest_25
+  - first:
+      213: -8751978172275295538
+    second: Chest_26
+  - first:
+      213: 69252637096674341
+    second: Chest_27
+  - first:
+      213: 8463318573378669383
+    second: Chest_28
+  - first:
+      213: 2541917673472247191
+    second: Chest_29
+  - first:
+      213: -653002299065281816
+    second: Chest_30
+  - first:
+      213: -5269694957685311677
+    second: Chest_31
+  - first:
+      213: 1285291066090047910
+    second: Chest_32
+  - first:
+      213: 1411990794027385819
+    second: Chest_33
+  - first:
+      213: 258336058199502978
+    second: Chest_34
+  - first:
+      213: -2684663577064637851
+    second: Chest_35
+  - first:
+      213: -5507748825284401658
+    second: Chest_36
+  - first:
+      213: 7570819689694539491
+    second: Chest_37
+  - first:
+      213: 4443553737431549522
+    second: Chest_38
+  - first:
+      213: -1833235658304861459
+    second: Chest_39
+  - first:
+      213: -832861770069828510
+    second: Chest_40
+  - first:
+      213: -1734191843461960526
+    second: Chest_41
+  - first:
+      213: 8582174629229070398
+    second: Chest_42
+  - first:
+      213: -8993136722633533841
+    second: Chest_43
+  - first:
+      213: -7051841295335933196
+    second: Chest_44
+  - first:
+      213: 3060793875843346058
+    second: Chest_45
+  - first:
+      213: -7015835112694080765
+    second: Chest_46
+  - first:
+      213: -7499537118545168343
+    second: Chest_47
+  - first:
+      213: 580174001947334139
+    second: Chest_48
+  - first:
+      213: 7284796360882428700
+    second: Chest_49
+  - first:
+      213: 3430092997151324714
+    second: Chest_50
+  - first:
+      213: -759629204839261442
+    second: Chest_51
+  - first:
+      213: -4640562950636458788
+    second: Chest_52
+  - first:
+      213: 4577615300212466188
+    second: Chest_53
+  - first:
+      213: -5456284767382605172
+    second: Chest_54
+  - first:
+      213: -5132019827422044803
+    second: Chest_55
+  - first:
+      213: 5583119094906753639
+    second: Chest_56
+  - first:
+      213: -5706293930496754659
+    second: Chest_57
+  - first:
+      213: -6060406441290623787
+    second: Chest_58
+  - first:
+      213: 5102306831994888048
+    second: Chest_59
+  - first:
+      213: 7057124778112157534
+    second: Chest_60
+  - first:
+      213: 5502981203145370324
+    second: Chest_61
+  - first:
+      213: -6378482347875665064
+    second: Chest_62
+  - first:
+      213: 6977508460081638915
+    second: Chest_63
+  - first:
+      213: 2661678937527391517
+    second: Chest_0
+  - first:
+      213: 8479554332474746260
+    second: Chest_1
+  - first:
+      213: 1079621220245165768
+    second: Chest_2
+  - first:
+      213: 8059272207805234168
+    second: Chest_3
+  - first:
+      213: 7009759131566548059
+    second: Chest_4
+  - first:
+      213: 5385104196456616411
+    second: Chest_5
+  - first:
+      213: 8592262724149036056
+    second: Chest_6
+  - first:
+      213: -3526080612862095661
+    second: Chest_7
+  - first:
+      213: 8538477251250149068
+    second: Chest_8
+  - first:
+      213: 2135790519254642953
+    second: Chest_9
+  - first:
+      213: 7829602522060267734
+    second: Chest_10
+  - first:
+      213: 3731305652038626948
+    second: Chest_11
+  - first:
+      213: 6149787121109268694
+    second: Chest_12
+  - first:
+      213: -997624944261727274
+    second: Chest_13
+  - first:
+      213: -7633688176913549490
+    second: Chest_14
+  - first:
+      213: -9200469054911097858
+    second: Chest_15
+  - first:
+      213: 3504308745924617842
+    second: Chest_16
+  - first:
+      213: -8907504291584581764
+    second: Chest_17
+  - first:
+      213: 1171385868669399073
+    second: Chest_18
+  - first:
+      213: -3899935855979921346
+    second: Chest_19
+  - first:
+      213: 3779330287545696033
+    second: Chest_20
+  - first:
+      213: -4337523160439233011
+    second: Chest_21
+  - first:
+      213: 132829279082295764
+    second: Chest_22
+  - first:
+      213: -6384548131461819080
+    second: Chest_23
+  - first:
+      213: 1797908483326603463
+    second: Chest_24
+  - first:
+      213: 86334357933668356
+    second: Chest_25
+  - first:
+      213: 3180268263586294303
+    second: Chest_26
+  - first:
+      213: -7974655106974947620
+    second: Chest_27
+  - first:
+      213: -6302074928764520575
+    second: Chest_28
+  - first:
+      213: -1981587666201187430
+    second: Chest_29
+  - first:
+      213: 1938835031641500254
+    second: Chest_30
+  - first:
+      213: -2183811107908921553
+    second: Chest_31
+  - first:
+      213: 8777834863749275756
+    second: Chest_32
+  - first:
+      213: 3707432624951598845
+    second: Chest_33
+  - first:
+      213: 1828825305678329300
+    second: Chest_34
+  - first:
+      213: 8240688465732285947
+    second: Chest_35
+  - first:
+      213: -1375120481412832822
+    second: Chest_36
+  - first:
+      213: 1448739489723807482
+    second: Chest_37
+  - first:
+      213: -4817155200085391525
+    second: Chest_38
+  - first:
+      213: -6662796385184753190
+    second: Chest_39
+  - first:
+      213: -6384507479147540327
+    second: Chest_38
+  - first:
+      213: -4021829527689735319
+    second: Chest_39
+  - first:
+      213: -7738177493083603234
+    second: Chest_40
+  - first:
+      213: -8265773949563016872
+    second: Chest_43
+  - first:
+      213: 8396059184185228888
+    second: Chest_41
+  - first:
+      213: -8221148872733114682
+    second: Chest_42
+  - first:
+      213: -3814616563031789034
+    second: Chest_46
+  - first:
+      213: -1472630040030175811
+    second: Chest_47
+  - first:
+      213: -3893046696026844646
+    second: Chest_48
+  - first:
+      213: -6184093056638242370
+    second: Chest_49
+  - first:
+      213: -3684082675092247399
+    second: Chest_50
+  - first:
+      213: -7891657054246596057
+    second: Chest_51
+  - first:
+      213: -2347576033712752140
+    second: Chest_52
+  - first:
+      213: 9055912351889449880
+    second: Chest_53
+  - first:
+      213: -1714351011902116765
+    second: Chest_54
+  - first:
+      213: 494072518745176669
+    second: Chest_55
+  - first:
+      213: -8102993484707471413
+    second: Chest_56
+  - first:
+      213: -5905621021672721700
+    second: Chest_57
+  - first:
+      213: 2732797770355394840
+    second: Chest_58
+  - first:
+      213: 6657233551799669911
+    second: Chest_59
+  - first:
+      213: -4704156366915240322
+    second: Chest_60
+  - first:
+      213: 8027002235577945696
+    second: Chest_61
+  - first:
+      213: 1440897791153029580
+    second: Chest_62
+  - first:
+      213: -4886586724344067267
+    second: Chest_63
+  - first:
+      213: -1336950606901957956
+    second: Chest_64
+  - first:
+      213: -1803834610263290185
+    second: Chest_65
+  - first:
+      213: -2941585659388862165
+    second: Chest_66
+  - first:
+      213: 6213277099287865396
+    second: Chest_67
+  - first:
+      213: 5785749826446831484
+    second: Chest_68
+  - first:
+      213: -7020613523081017915
+    second: Chest_62
+  - first:
+      213: 4222794809054916784
+    second: Chest_70
+  - first:
+      213: -2863137784408393686
+    second: Chest_71
+  - first:
+      213: 5989390222615459079
+    second: Chest_0
+  - first:
+      213: 8320564845499711000
+    second: Chest_1
+  - first:
+      213: 8125390191009410951
+    second: Chest_2
+  - first:
+      213: 3730575119831316471
+    second: Chest_3
+  - first:
+      213: 6299931232018461590
+    second: Chest_4
+  - first:
+      213: -8674939535970319490
+    second: Chest_5
+  - first:
+      213: -7035060454323645720
+    second: Chest_6
+  - first:
+      213: 1193132894871697310
+    second: Chest_7
+  - first:
+      213: 5153403487221728338
+    second: Chest_8
+  - first:
+      213: 8376513259609052445
+    second: Chest_9
+  - first:
+      213: -4167572089065268048
+    second: Chest_10
+  - first:
+      213: -242527265794771757
+    second: Chest_11
+  - first:
+      213: -7641487470258185022
+    second: Chest_12
+  - first:
+      213: 8512713758830930938
+    second: Chest_13
+  - first:
+      213: -8746398389973607004
+    second: Chest_14
+  - first:
+      213: 2192755529105283828
+    second: Chest_15
+  - first:
+      213: 794866354096817295
+    second: Chest_16
+  - first:
+      213: 6659910053367179261
+    second: Chest_17
+  - first:
+      213: -3186246866260034524
+    second: Chest_18
+  - first:
+      213: 3806897665008459523
+    second: Chest_19
+  - first:
+      213: 8514304167508872716
+    second: Chest_20
+  - first:
+      213: 4576115800981629375
+    second: Chest_21
+  - first:
+      213: -6596230347700414393
+    second: Chest_22
+  - first:
+      213: -7737595674960020883
+    second: Chest_23
+  - first:
+      213: -6691241768930342730
+    second: Chest_24
+  - first:
+      213: 4568882927310911554
+    second: Chest_25
+  - first:
+      213: 6039340251988731445
+    second: Chest_26
+  - first:
+      213: 9173597562643649429
+    second: Chest_27
+  - first:
+      213: 132815607926687467
+    second: Chest_28
+  - first:
+      213: 519820699907929432
+    second: Chest_29
+  - first:
+      213: 5568718062464318606
+    second: Chest_30
+  - first:
+      213: -8915752664294386234
+    second: Chest_31
+  - first:
+      213: -2588410688239334522
+    second: Chest_32
+  - first:
+      213: -2376796689570290504
+    second: Chest_33
+  - first:
+      213: -7316316849831960808
+    second: Chest_34
+  - first:
+      213: 1695861524279133359
+    second: Chest_35
+  - first:
+      213: -7196907917354783582
+    second: Chest_36
+  - first:
+      213: -7048509782831013660
+    second: Chest_37
+  - first:
+      213: -6384507479147540327
+    second: Chest_40
+  - first:
+      213: -4021829527689735319
+    second: Chest_41
+  - first:
+      213: -7377493434081757832
+    second: Chest_42
+  - first:
+      213: 1779393901355231748
+    second: Chest_43
+  - first:
+      213: -7600518542606419515
+    second: Chest_44
+  - first:
+      213: 6407851370970080046
+    second: Chest_45
+  - first:
+      213: 4601074764946029383
+    second: Chest_48
+  - first:
+      213: 1584952137487694176
+    second: Chest_49
+  - first:
+      213: -2835012176940358360
+    second: Chest_50
+  - first:
+      213: 7308669919418965719
+    second: Chest_51
+  - first:
+      213: -7213660181453682128
+    second: Chest_52
+  - first:
+      213: 3181169186290359780
+    second: Chest_53
+  - first:
+      213: 2722919591561120993
+    second: Chest_54
+  - first:
+      213: -2406910812117504906
+    second: Chest_55
+  - first:
+      213: 8690833927952101718
+    second: Chest_56
+  - first:
+      213: 5770459363229910169
+    second: Chest_57
+  - first:
+      213: -8457616716174392016
+    second: Chest_58
+  - first:
+      213: 5875289664683301043
+    second: Chest_59
+  - first:
+      213: 7276973855330931421
+    second: Chest_60
+  - first:
+      213: -5062267216240464436
+    second: Chest_61
+  - first:
+      213: 3552061186614264589
+    second: Chest_44
+  - first:
+      213: 1280948511078899752
+    second: Chest_45
+  - first:
+      213: 9004309666879487055
+    second: Chest_46
+  - first:
+      213: -4514807629996071852
+    second: Chest_47
+  - first:
+      213: 7596897299696474944
+    second: Chest_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chest_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9901697364ca567a0800000000000000
+      internalID: -6384507479147540327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96350e66a579f28c0800000000000000
+      internalID: -4021829527689735319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5c3739235c19e90800000000000000
+      internalID: -7020613523081017915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7053130aca69e1350800000000000000
+      internalID: 5989390222615459079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81efc9a84a5987370800000000000000
+      internalID: 8320564845499711000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2f8c145f23c070800000000000000
+      internalID: 8125390191009410951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7b4795e4aa5c330800000000000000
+      internalID: 3730575119831316471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69379d9b31add6750800000000000000
+      internalID: 6299931232018461590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e734f7e247c6c9780800000000000000
+      internalID: -8674939535970319490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e214a64ac17e5e90800000000000000
+      internalID: -7035060454323645720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 400
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9739a0eb0cde8010800000000000000
+      internalID: 1193132894871697310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544c10fa21948740800000000000000
+      internalID: 5153403487221728338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15d85fcd6a5f3470800000000000000
+      internalID: 8376513259609052445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc9e67044fc926c0800000000000000
+      internalID: -4167572089065268048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4b4f99cbe52acf0800000000000000
+      internalID: -242527265794771757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc99a3d1abf3f590800000000000000
+      internalID: -7641487470258185022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afba2b5bf0c332670800000000000000
+      internalID: 8512713758830930938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad1395310d8e9680800000000000000
+      internalID: -8746398389973607004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 350
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa1897398b3e6e10800000000000000
+      internalID: 2192755529105283828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c9d7dcbee70b00800000000000000
+      internalID: 794866354096817295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e00768e0cc6c50800000000000000
+      internalID: 6659910053367179261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c7ed94b5d28c3d0800000000000000
+      internalID: -3186246866260034524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fd71ba141d4d430800000000000000
+      internalID: 3806897665008459523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e8ef59782e82670800000000000000
+      internalID: 8514304167508872716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ef806311a18f30800000000000000
+      internalID: 4576115800981629375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7485aa4727b7574a0800000000000000
+      internalID: -6596230347700414393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 300
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab86aaab98e9490800000000000000
+      internalID: -7737595674960020883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b886a8101fe323a0800000000000000
+      internalID: -6691241768930342730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248b6beb0dee76f30800000000000000
+      internalID: 4568882927310911554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536a18d16fb00d350800000000000000
+      internalID: 6039340251988731445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59393c1216a2f4f70800000000000000
+      internalID: 9173597562643649429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6091b771bd7d100800000000000000
+      internalID: 132815607926687467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85538e42c26c63700800000000000000
+      internalID: 519820699907929432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbc7fc29f084d40800000000000000
+      internalID: 5568718062464318606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 250
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c59d738032e44480800000000000000
+      internalID: -8915752664294386234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b8baa613e141cd0800000000000000
+      internalID: -2588410688239334522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a6dee00ce30fd0800000000000000
+      internalID: -2376796689570290504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_34
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9f8da698377a90800000000000000
+      internalID: -7316316849831960808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_35
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa409ee3219e88710800000000000000
+      internalID: 1695861524279133359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2fd841627f1c90800000000000000
+      internalID: -7196907917354783582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 200
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0ed7672b9ae2e90800000000000000
+      internalID: -7048509782831013660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b7c03fc0ed9990800000000000000
+      internalID: -7377493434081757832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a66cd535da1b810800000000000000
+      internalID: 1779393901355231748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3f950f1d4adf30800000000000000
+      internalID: 4601074764946029383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06933f45291eef510800000000000000
+      internalID: 1584952137487694176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8252093127308a8d0800000000000000
+      internalID: -2835012176940358360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dedc87919c9d6560800000000000000
+      internalID: 7308669919418965719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ac21ad84ee3eb90800000000000000
+      internalID: -7213660181453682128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed51473588c52c20800000000000000
+      internalID: 3181169186290359780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecc3fe11f0c9c520800000000000000
+      internalID: 2722919591561120993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_55
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c60b56e5fe89ed0800000000000000
+      internalID: -2406910812117504906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6517f75596b0c9870800000000000000
+      internalID: 8690833927952101718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9944528b73ac41050800000000000000
+      internalID: 5770459363229910169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0350502386280aa80800000000000000
+      internalID: -8457616716174392016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8d8f742d8398150800000000000000
+      internalID: 5875289664683301043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_60
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21ec69a210df460800000000000000
+      internalID: 7276973855330931421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccda1e1b9c63fb9b0800000000000000
+      internalID: -5062267216240464436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570cfe2ed6062db0800000000000000
+      internalID: -4817155200085391525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad95e4a1dfdf883a0800000000000000
+      internalID: -6662796385184753190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03889064d47b4130800000000000000
+      internalID: 3552061186614264589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_45
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8206c6252e7d6c110800000000000000
+      internalID: 1280948511078899752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cb7f56febb5fc70800000000000000
+      internalID: 9004309666879487055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 100
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4546cd8816e2851c0800000000000000
+      internalID: -4514807629996071852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b588f08d99d6960800000000000000
+      internalID: 7596897299696474944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

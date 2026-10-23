@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 8e19dfb3621a58d498b4d9a6b670b652
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5184299515373652887
+    second: metal_walls_0
+  - first:
+      213: -2051682632557606092
+    second: metal_walls_1
+  - first:
+      213: 5094911217911790987
+    second: metal_walls_2
+  - first:
+      213: 8696300427116794024
+    second: metal_walls_3
+  - first:
+      213: -1862960588399788207
+    second: metal_walls_4
+  - first:
+      213: -6257046961108886889
+    second: metal_walls_5
+  - first:
+      213: -916235519419873723
+    second: metal_walls_6
+  - first:
+      213: 7855997260483625835
+    second: metal_walls_7
+  - first:
+      213: 383994020672808487
+    second: metal_walls_8
+  - first:
+      213: -1687847128339499520
+    second: metal_walls_9
+  - first:
+      213: -7813561694180208231
+    second: metal_walls_10
+  - first:
+      213: -4339002284088203130
+    second: metal_walls_11
+  - first:
+      213: 3232044042280028807
+    second: metal_walls_12
+  - first:
+      213: 470361477166897127
+    second: metal_walls_13
+  - first:
+      213: -2618620664977681514
+    second: metal_walls_14
+  - first:
+      213: 2231549801537394692
+    second: metal_walls_15
+  - first:
+      213: 7857360712330612217
+    second: metal_walls_16
+  - first:
+      213: -5013741959081670580
+    second: metal_walls_17
+  - first:
+      213: 5047780424095141700
+    second: metal_walls_18
+  - first:
+      213: 2494208336631730839
+    second: metal_walls_0
+  - first:
+      213: -2091352861971045516
+    second: metal_walls_19
+  - first:
+      213: 6013652501698315197
+    second: metal_walls_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: metal_walls_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9647ce0fe0bad08b0800000000000000
+      internalID: -5184299515373652887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc0961485f683e0800000000000000
+      internalID: -2051682632557606092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8df8c932c2c4b640800000000000000
+      internalID: 5094911217911790987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -10}
+        - {x: -9, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0df5ad9277fa870800000000000000
+      internalID: 8696300427116794024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 3}
+        - {x: 10, y: 3}
+        - {x: 10, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb0e9173f6526e0800000000000000
+      internalID: -1862960588399788207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ada2ca0f08a29a0800000000000000
+      internalID: -6257046961108886889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -10}
+        - {x: 3, y: 10}
+        - {x: 9, y: 10}
+        - {x: 9, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546026646a0e843f0800000000000000
+      internalID: -916235519419873723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: -3, y: 10}
+        - {x: -3, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638193b2eb160d60800000000000000
+      internalID: 7855997260483625835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -10}
+        - {x: 3, y: 10}
+        - {x: 9, y: 10}
+        - {x: 9, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726a31ef688345500800000000000000
+      internalID: 383994020672808487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0063928baff8398e0800000000000000
+      internalID: -1687847128339499520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -8}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9911ac38907a09390800000000000000
+      internalID: -7813561694180208231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -10}
+        - {x: -1, y: -10}
+        - {x: -1, y: -8}
+        - {x: -10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68860516964c8c3c0800000000000000
+      internalID: -4339002284088203130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -8}
+        - {x: 0, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ac48eaee68adc20800000000000000
+      internalID: 3232044042280028807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -10}
+        - {x: 3, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79f8a754f078600800000000000000
+      internalID: 470361477166897127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 10}
+        - {x: -3, y: 10}
+        - {x: -3, y: 2}
+        - {x: 10, y: 2}
+        - {x: 10, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6931286116ac8abd0800000000000000
+      internalID: -2618620664977681514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 2}
+        - {x: 10, y: 2}
+        - {x: 10, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408da33a8be08fe10800000000000000
+      internalID: 2231549801537394692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd839210f3fa0d60800000000000000
+      internalID: 7857360712330612217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -7}
+        - {x: 1, y: 2}
+        - {x: 10, y: 2}
+        - {x: 10, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48477d804c9b6ab0800000000000000
+      internalID: -5013741959081670580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 10}
+        - {x: 9, y: 10}
+        - {x: 9, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f8c5a2d815d0640800000000000000
+      internalID: 5047780424095141700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 3}
+        - {x: -10, y: -7}
+        - {x: 3, y: -7}
+        - {x: 3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473283a07a50af2e0800000000000000
+      internalID: -2091352861971045516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_walls_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 3}
+        - {x: -3, y: -7}
+        - {x: 10, y: -7}
+        - {x: 10, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db30e5ea619c47350800000000000000
+      internalID: 6013652501698315197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
