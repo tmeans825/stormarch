@@ -33,6 +33,8 @@ public class OldtownAct1BeatManager : sceneBeatManager
     public SPSBehavior2 safetyProtocolSystem;
     [ES3NonSerializable]
     public Bridge rheaBridge;
+    [ES3NonSerializable]
+    public GameObject resumeCampDiscussionDialogue;
 
     private static int wolvesToFind = 3;
     private static Vector3 positionByElevator = new Vector3(194.6f, -4.67f, 0f);
@@ -46,7 +48,7 @@ public class OldtownAct1BeatManager : sceneBeatManager
 
     protected override void initializeData()
     {
-        beatMatrix = new int[3];
+        beatMatrix = new int[5];
 
         // Beat line 0 - Main beats:
         // 1 -> have found all the wolves
@@ -56,6 +58,7 @@ public class OldtownAct1BeatManager : sceneBeatManager
         // 5 -> Bridge extended
         // 6 -> Entered New Rhea
         // 7 -> Talked to the Dr.
+        // 8 -> Separated from Owen
 
         // Beat line 1 - Hans
         // 1 -> executed
@@ -64,6 +67,13 @@ public class OldtownAct1BeatManager : sceneBeatManager
         // 1 -> 1
         // 2 -> 2
         // 3 -> All found
+
+        // Beat line 3 - Owen & Camp
+        // 1 => Player has radio
+        // 2 => Player has called down the camp
+
+        // Beat line 4 - Alers Industrial contact
+        // 1 => Player has access to hideout
 
     }
 
@@ -121,10 +131,14 @@ public class OldtownAct1BeatManager : sceneBeatManager
         {
             owen.transform.position = positionByElevator;
         }
-        else
+        else if (getBeatProgress(0) <= 7)
         {
             owen.transform.position = PlayerController.instance.transform.position + new Vector3(2f, 0f, 0f);
             owen.startFollowingPlayer();
+        }
+        else
+        {
+            owen.gameObject.SetActive(false);
         }
     }
     public override void debugProgressQuests()
@@ -135,6 +149,26 @@ public class OldtownAct1BeatManager : sceneBeatManager
     }
 
     // EVENTS
+    public void calledCamp()
+    {
+        if(beatMatrix[3] == 1)
+        {
+            progressBeat(3);
+            resumeCampDiscussionDialogue.SetActive(true);
+        }
+    }
+
+    public void OwenRunToCamp()
+    {
+        owen.stopFollowingPlayer();
+        owen.startMoving(new Vector2(-30.99f, -17.25f));
+    }
+
+    public void resumeOwenFollowing()
+    {
+        owen.startFollowingPlayer();
+    }   
+
     public void executeHansStoryBeat()
     {
         PlayerPrefs.SetInt("Beams On?", 1);
@@ -222,6 +256,13 @@ public class OldtownAct1BeatManager : sceneBeatManager
     public void discoverNewRhea()
     {
         LocationDiscoveryManager.instance.discoverLocation("NEW RHEA");
+    }
+
+    public void owenLeaves()
+    {
+        owen.stopFollowingPlayer();
+        owen.startMoving(new Vector3(306.7f, 388.4f));
+        progressBeat(0);
     }
 
     // HELPER

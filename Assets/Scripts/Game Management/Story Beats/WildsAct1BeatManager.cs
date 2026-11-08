@@ -8,15 +8,11 @@ using Com.LuisPedroFonseca.ProCamera2D;
 public class WildsAct1BeatManager : sceneBeatManager
 {
     [ES3NonSerializable]
-    public GameObject storyOwen;
-    [ES3NonSerializable]
     public GameObject wolvoRock;
     [ES3NonSerializable]
     public NonCombatChar hermit;
     [ES3NonSerializable]
     public GameObject hermitWalkTrigger;
-    [ES3NonSerializable]
-    public CircleCollider2D[] cyperminiumColliders;
     [ES3NonSerializable]
     public GameObject fallenTree;
     [ES3NonSerializable]
@@ -48,10 +44,7 @@ public class WildsAct1BeatManager : sceneBeatManager
     {
         beatMatrix = new int[7];
 
-        // Beat line 0 - Owen & Camp
-        // 1 => Player has radio
-        // 2 => Player has called down the camp
-        // 3 => Owen left
+        // Beat line 0 - Deprecated
 
         // Beat line 1 - Thorvald and Ashland quest
         // 1 => Quest given, basin open
@@ -96,19 +89,6 @@ public class WildsAct1BeatManager : sceneBeatManager
 
     protected override void loadBeats()
     {
-        if(beatMatrix[0] < 1)
-        {
-            foreach (CircleCollider2D col in cyperminiumColliders)
-            {
-                col.enabled = false;
-            }
-        }
-
-        if(beatMatrix[0] >= 3)
-        {
-            storyOwen.SetActive(false);
-        }
-
         if (beatMatrix[1] >= 1)
         {
             wolvoRock.SetActive(false);
@@ -151,20 +131,6 @@ public class WildsAct1BeatManager : sceneBeatManager
     }
 
     // EVENTS
-    public void calledCamp()
-    {
-        if(beatMatrix[0] == 1)
-        {
-            progressBeat(0);
-        }
-    }
-
-    public void owenDeparts()
-    {
-        progressBeat(0);
-        storyOwen.GetComponent<NonCombatChar>().startMoving(new Vector3(79.3f, 0.1f));
-    }
-
     public void beginWolvoFight()
     {
         progressBeat(1);

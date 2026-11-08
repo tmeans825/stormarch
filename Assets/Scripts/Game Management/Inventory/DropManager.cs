@@ -434,8 +434,8 @@ public class DropManager : MonoBehaviour
             default: // shotgun
                 statsToReturn.fspeed = 0.75f - 0.05f * tier;
                 statsToReturn.bspeed = 21f + tier;
-                statsToReturn.dam = 8 + tier;
-                statsToReturn.dam2 = 10 + tier;
+                statsToReturn.dam = 12 + tier;
+                statsToReturn.dam2 = 14 + tier;
                 statsToReturn.range = 6 + tier;
                 statsToReturn.crit = 0.10f + 0.02f * tier;
                 statsToReturn.bullets = 5;
