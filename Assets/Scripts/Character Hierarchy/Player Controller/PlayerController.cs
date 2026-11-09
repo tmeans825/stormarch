@@ -538,6 +538,18 @@ public class PlayerController : Humanoid
 
     }
 
+    // Scripted lethal hit. A plain damageCharacter call can silently no-op during i-frames.
+    // generateBlood stays false: CombatChar spawns damage/10 blood objects.
+    public void killInstantly(Vector2 hitPos)
+    {
+        if (isDead)
+            return;
+
+        isInvincible = false;
+        invulnerable = false;
+        damageCharacter(999999f, hitPos, false, true, false, false);
+    }
+
     private IEnumerator startInvincibilityFrames()
     {
         isInvincible = true;

@@ -39,6 +39,10 @@ public class OwensAct1BeatManager : sceneBeatManager
     public GameObject milo;
 
 
+    private const int HOUSE_BEAT = 5;            // back at the house, pre-bed
+    private const int BED_BEAT = 6;              // in bed, dream pending
+    private const int WOKE_FROM_DREAM_BEAT = 7;  // returned from the dream; wake-up setup runs once
+
     protected override void initializeData()
     {
         beatMatrix = new int[2];
@@ -48,8 +52,10 @@ public class OwensAct1BeatManager : sceneBeatManager
         // 2 => Melina conversation done, collect crates, explore
         // 3 => Milo is actively in trouble
         // 4 => Guardian is dead
-        // 5 => Player has entered dream world
-        // 6 => Player is fully woken up, ready to go.
+        // 5 => Back at the house, pre-bed (dialogue conditions rely on this)
+        // 6 => In bed, dream transition pending (reload restores the bed scene)
+        // 7 => Dream visited, returning from it (loadBeats runs the wake-up setup once)
+        // 8 => Player is fully woken up, ready to go.
 
         // Beat line 1 - Melina's injury
         // 1 => Melina is hurt
@@ -65,7 +71,7 @@ public class OwensAct1BeatManager : sceneBeatManager
     protected override void loadBeats()
     {
         if (shouldSkipBeats())
-            beatMatrix[0] = 5;
+            beatMatrix[0] = WOKE_FROM_DREAM_BEAT;
 
         if (beatMatrix[0] >= 1)
             storyOwen.transform.position = new Vector3(22.2f, -24.33f, 0f);
@@ -94,14 +100,23 @@ public class OwensAct1BeatManager : sceneBeatManager
             preDreamMilo.SetActive(true);
         }
 
-        if(beatMatrix[0] == 5)
+        if(beatMatrix[0] == BED_BEAT)
+        {
+            // Reloaded while in bed: restore the bed scene and re-arm the dream transition
+            // instead of jumping to the post-dream state.
+            applyBedLayout();
+            dreamFadeTrigger.SetActive(true);
+            AudioMaster.instance.PlayMusic("Owen_Flute", 1);
+        }
+
+        if(beatMatrix[0] == WOKE_FROM_DREAM_BEAT)
         {
             owenNewRheaTrigger.SetActive(true);
             miloWakesYouUpTrigger.SetActive(true);
             progressBeat(0);
         }
 
-        if(beatMatrix[0] >= 5)
+        if(beatMatrix[0] >= WOKE_FROM_DREAM_BEAT)
         {
             preDreamMilo.SetActive(false);
             milo.SetActive(true);
@@ -238,34 +253,46 @@ public class OwensAct1BeatManager : sceneBeatManager
 
     public void goToBed()
     {
+        if (beatMatrix[0] != HOUSE_BEAT) // guard against double-advancing past the dream
+            return;
+
         PlayerController.instance.freezeChar(true);
         CanvasMaster.instance.cutToBlack();
         StartCoroutine(bedCoroutine());
     }
 
-    private IEnumerator bedCoroutine()
+    // Bed scene layout shared by the live bed sequence and a reload while in bed.
+    // Does not touch the beat, save, or the dream trigger.
+    private void applyBedLayout()
     {
-        yield return new WaitForSeconds(0.6f); // wait for fade
-        
         PlayerController.instance.transform.position = new Vector3(29.6f, -14.72f);
         preDreamMilo.transform.position = new Vector3(11.18f, -14.03f);
         melina.transform.position = new Vector3(12.27f, -14.42f);
         melina.GetComponent<NonCombatChar>().faceObject(Vector2.right, false);
         universalLight.intensity = 0.1f;
-        progressBeat(0);
-
-        SaveManager.instance.saveSceneData(); // Save bed position, beat
 
         PlayerController.instance.hasKiplingAccess(false);
         PlayerController.instance.faceObject(Vector2.left, false);
 
-        dreamFadeTrigger.SetActive(true); // execute scene events
-
         storyOwen.transform.position = new Vector3(35.03f, -17.87f);
         storyOwen.GetComponent<NonCombatChar>().faceObject(Vector2.right, false);
 
-
         EventManager.instance.startRain(0.05f);
+    }
+
+    private IEnumerator bedCoroutine()
+    {
+        yield return new WaitForSeconds(0.6f); // wait for fade
+
+        if (beatMatrix[0] != HOUSE_BEAT)
+            yield break;
+
+        applyBedLayout();
+        progressBeat(0); // 5 -> 6 (in bed)
+
+        SaveManager.instance.saveSceneData(); // Save bed position, beat
+
+        dreamFadeTrigger.SetActive(true); // execute scene events
 
         yield return new WaitForSeconds(1f);
 
@@ -284,7 +311,11 @@ public class OwensAct1BeatManager : sceneBeatManager
     private IEnumerator waitThenTransitionScenesToDreamWorld()
     {
         yield return new WaitForSeconds(3f);
-        
+
+        // Mark the dream as visited so a later reload runs the wake-up setup; changeScene autosaves it.
+        if (beatMatrix[0] == BED_BEAT)
+            progressBeat(0); // 6 -> 7
+
         LevelLoader.instance.changeScene("???");
 
     }

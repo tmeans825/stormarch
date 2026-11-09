@@ -60,6 +60,12 @@ public class LevelLoader : MonoBehaviour
 
     public void changeScene(string locationName)
     {
+        if (MissionCountdown.isRunning) // saves are skipped mid-countdown, so leaving would lose progress
+        {
+            Debug.LogWarning("Can't change scene during a mission countdown.");
+            return;
+        }
+
         string sceneName = SaveManager.instance.getCurrentActFilenameFromLocation(locationName);
         if (Application.CanStreamedLevelBeLoaded(sceneName))
         {

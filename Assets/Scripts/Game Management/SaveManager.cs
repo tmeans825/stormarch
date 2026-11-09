@@ -82,6 +82,14 @@ public class SaveManager : MonoBehaviour
 
     private void saveAllData(string sceneName, bool requestAutosaveIndicator)
     {
+        // A mid-countdown save would capture half-finished mission state. Death saves still
+        // get through because MissionCountdown stops itself before the death save runs.
+        if (MissionCountdown.isRunning)
+        {
+            Debug.Log("Mission countdown running, skipping save.");
+            return;
+        }
+
         // Make sure any prior background flush is done before we mutate ES3 state
         // or kick off a new save; otherwise overlapping writes can corrupt the file.
         WaitForActiveSave();

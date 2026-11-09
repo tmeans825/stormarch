@@ -1052,6 +1052,20 @@ public class Character : Entity
         }
     }
 
+    public void clearHeadSprites()
+    {
+        // Blank the names too, or Character.Start re-applies them
+        hairSpriteSheetName = "";
+        skinSpriteSheetName = "";
+
+        for (int i = 0; i < 4; i++) // for each head
+        {
+            Transform head = transform.GetChild(1).GetChild(i);
+            head.GetComponent<SpriteRenderer>().sprite = null;
+            head.GetChild(0).GetComponent<SpriteRenderer>().sprite = null;
+        }
+    }
+
     protected void catchAnimationIssues()
     {
         ResetAllTriggers(chestAnimator);

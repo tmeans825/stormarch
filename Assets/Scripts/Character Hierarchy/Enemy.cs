@@ -207,8 +207,11 @@ public class Enemy : Humanoid
             slowAnimAndSpeed(paceSpeedModifier);
         }
 
+        // Optional: scripted enemies (e.g. Combat Melina) have no health bar. An NRE here would abort
+        // Start before base.Start(), leaving Character's renderers unassigned and spamming Update.
         hudController = GetComponent<EnemyHUDController>();
-        hudController.Initialize(health, maxHealth, maxShields);
+        if (hudController != null)
+            hudController.Initialize(health, maxHealth, maxShields);
 
         int blockingLayer = LayerMask.NameToLayer("BlockingLayer");
 
@@ -327,7 +330,7 @@ public class Enemy : Humanoid
                 break;
         }
 
-        if (isRecharging)
+        if (isRecharging && hudController != null)
             hudController.OnRecharging(health, shields);
 
         base.Update();
@@ -877,7 +880,8 @@ public class Enemy : Humanoid
 
         GameEvents.current.enemyKilled();
         seeker.enabled = false;
-        hudController.SetVisible(false);
+        if (hudController != null)
+            hudController.SetVisible(false);
         base.characterDeath();
     }
 
@@ -1277,7 +1281,8 @@ public class Enemy : Humanoid
             }
         }
 
-        hudController.OnDamaged(health, shields);
+        if (hudController != null)
+            hudController.OnDamaged(health, shields);
 
         if (state == State.Idle && health > 0 && !isPassive())
             aggro();

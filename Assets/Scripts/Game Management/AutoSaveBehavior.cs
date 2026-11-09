@@ -133,6 +133,9 @@ public class AutoSaveBehavior : MonoBehaviour
 
     public void saveCheckpoint()
     {
+        if (MissionCountdown.isRunning) // the save would be skipped, so don't consume the save point
+            return;
+
         if (!isCamp)
         {
             lightObj.SetActive(false);

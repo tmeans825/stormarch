@@ -50,6 +50,8 @@ public class EventManager : MonoBehaviour
 
     private ProCamera2DTriggerZoom indoorZoomTrigger; // resolved from indoorZoomObj in Start()
 
+    private HashSet<NonCombatChar> endedLoopingPaths = new HashSet<NonCombatChar>();
+
     const string MEDIUM_SHAKE = "Medium Shake";
     const string SMALL_SHAKE = "Small Shake";
     const string TINY_SHAKE = "Tiny Shake";
@@ -145,6 +147,12 @@ public class EventManager : MonoBehaviour
     public void startLoopingPath(NonCombatChar character, Vector3 target, float loopTime)
     {       
         StartCoroutine(loopPathAndRandomizeAppearance(character, loopTime, character.transform.position, target));
+    }
+
+    // The character finishes its current run, then deactivates instead of looping again.
+    public void endLoopingPath(NonCombatChar character)
+    {
+        endedLoopingPaths.Add(character);
     }
 
     public void shakeScreenMedium()
@@ -330,6 +338,13 @@ public class EventManager : MonoBehaviour
         character.startMoving(targetPos);
         yield return new WaitForSeconds(secondsToWait);
         character.overrideStopMoving();
+
+        if (endedLoopingPaths.Remove(character))
+        {
+            character.gameObject.SetActive(false);
+            yield break;
+        }
+
         character.transform.position = startPos;
         character.randomizeAppearanceToTemplate();
         yield return null;

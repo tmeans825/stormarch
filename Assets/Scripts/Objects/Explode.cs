@@ -17,6 +17,12 @@ public class Explode : MonoBehaviour
     [Tooltip("Explosion particle system - should have DestroyAfterSeconds attached.")]
     public GameObject vfx;
 
+    [Tooltip("Size multiplier for the spawned VFX. Applied per particle system because the explosion prefabs use Local scaling, which ignores parent scale.")]
+    public float vfxScale = 1f;
+
+    [Tooltip("If set, plays one of these at random from this object's own AudioManager instead of the size-based sound on the VFX.")]
+    public string[] randomSfxNames;
+
     [Tooltip("0 = None - use Misc_Explosion, 1 = Small, 2 = Medium, 3 = Large, 4 = Huge")]
     [Range(0, 3)]
     public int explosionSize = 1;
@@ -124,6 +130,9 @@ public class Explode : MonoBehaviour
     {
         explosion = Instantiate(vfx, transform.position + offset, transform.rotation, parent);
 
+        if (vfxScale != 1f)
+            scaleVFX(explosion);
+
         if (explosion.GetComponent<FireBombExplosionVFX>() != null)
             explosion.GetComponent<FireBombExplosionVFX>().setValues(radius);
 
@@ -158,7 +167,10 @@ public class Explode : MonoBehaviour
             }
         }
 
-        explosion.GetComponent<AudioManager>().PlaySound(sfx);
+        if (randomSfxNames != null && randomSfxNames.Length > 0)
+            GetComponent<AudioManager>().PlaySound(randomSfxNames[Random.Range(0, randomSfxNames.Length)], true);
+        else
+            explosion.GetComponent<AudioManager>().PlaySound(sfx);
 
         if (explosionSize != 0)
         {
@@ -240,6 +252,15 @@ public class Explode : MonoBehaviour
         }
     }
   
+
+    private void scaleVFX(GameObject vfxInstance)
+    {
+        foreach (ParticleSystem ps in vfxInstance.GetComponentsInChildren<ParticleSystem>())
+            ps.transform.localScale *= vfxScale;
+
+        foreach (Light2D vfxLight in vfxInstance.GetComponentsInChildren<Light2D>())
+            vfxLight.pointLightOuterRadius *= vfxScale;
+    }
 
     // temporary test scripts ---------------------------------------------------------------------
 

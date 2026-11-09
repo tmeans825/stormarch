@@ -35,10 +35,32 @@ public class OldtownAct1BeatManager : sceneBeatManager
     public Bridge rheaBridge;
     [ES3NonSerializable]
     public GameObject resumeCampDiscussionDialogue;
+    [ES3NonSerializable]
+    public float factoryEscapeSeconds = 120f;
+    [ES3NonSerializable]
+    public GameObject factoryExitTrigger;
+    [ES3NonSerializable]
+    [Tooltip("Autosaved objects the bomb turns on. Forced back off on load until the player escapes.")]
+    public GameObject[] factoryBombOnlyObjects;
+    [ES3NonSerializable]
+    public ProCamera2DCinematics factoryEscapeCinematic;
+    [ES3NonSerializable]
+    public ExplosionBarrage factoryExplosions;
+    [ES3NonSerializable]
+    public GameObject factorySmoke;
+    [ES3NonSerializable]
+    public NpcResponderBurst[] factoryResponders;
+    [ES3NonSerializable]
+    public PolygonCollider2D weaponAllowedZone;
 
     private static int wolvesToFind = 3;
     private static Vector3 positionByElevator = new Vector3(194.6f, -4.67f, 0f);
     private static Vector3 elevatorLocation = new Vector3(199.39f, 39.08f);
+
+    private const string ESCAPE_BANNER = "ESCAPE!";
+    private const string ESCAPE_MUSIC = "Firing_Squad_Loop";
+    private const float DETONATION_RADIUS = 8f;
+    private const int DETONATION_EXPLOSIONS = 12;
 
 
     protected override void Start()
@@ -85,6 +107,9 @@ public class OldtownAct1BeatManager : sceneBeatManager
         PlayerController.instance.changeHairSprites("hair_light_tier1_blue");
         // Soundtrack + City Sound come from AudioMaster's scene ambient and SubLocationManager.
 
+        // The zone's triggers only fire on crossing its edge, so a load outside it would never lock guns.
+        PlayerController.instance.weaponsAllowed = weaponAllowedZone.OverlapPoint(PlayerController.instance.transform.position);
+
         StartCoroutine(initiateWalkingFactoryWorkerLoop());
     }
 
@@ -101,11 +126,18 @@ public class OldtownAct1BeatManager : sceneBeatManager
         }
         if (getBeatProgress(0) == 2)
         {
-            factoryTaskGiven();   
+            factoryTaskGiven();
+            resetFactoryBomb();
         }
         if(getBeatProgress(0) >= 3)
         {
             wolfDenDoor.SetActive(false);
+            factoryInterior.SetActive(false);
+            factorySmoke.SetActive(true);
+            foreach (NpcResponderBurst burst in factoryResponders)
+            {
+                burst.spawnAtRally();
+            }
         }
         if(getBeatProgress(0) >= 4)
         {
@@ -224,6 +256,50 @@ public class OldtownAct1BeatManager : sceneBeatManager
         factoryInterior.SetActive(true);
     }
 
+    public void startFactoryBomb()
+    {
+        if (getBeatProgress(0) != 2 || MissionCountdown.isRunning)
+            return;
+
+        AudioMaster.instance.PlaySound("Alarm");
+        MissionCountdown.instance.startCountdown(ESCAPE_BANNER, factoryEscapeSeconds, onFactoryTimerExpired, ESCAPE_MUSIC);
+    }
+
+    private void onFactoryTimerExpired()
+    {
+        factoryExitTrigger.SetActive(false); // the corpse can slide, and must not finish the mission
+        factoryExplosions.playAround(PlayerController.instance.transform.position, DETONATION_RADIUS, DETONATION_EXPLOSIONS);
+        PlayerController.instance.killInstantly(PlayerController.instance.transform.position); // same frame: saves reopen once the countdown ends
+    }
+
+    public void factoryEscaped()
+    {
+        MissionCountdown.instance.stopCountdown();
+        PlayerController.instance.freezeChar(true);
+        foreach (NonCombatChar worker in factoryWorkersWalking)
+        {
+            EventManager.instance.endLoopingPath(worker);
+        }
+
+        factoryExplosions.playInArea(startFactoryAftermath);
+        factoryEscapeCinematic.Play();
+    }
+
+    private void startFactoryAftermath()
+    {
+        factorySmoke.SetActive(true);
+        foreach (NpcResponderBurst burst in factoryResponders)
+        {
+            burst.spawnAndRun();
+        }
+    }
+
+    public void onFactoryEscapeCinematicFinished()
+    {
+        PlayerController.instance.freezeChar(false);
+        SaveManager.instance.saveSceneData();
+    }
+
     public void throwSmokeBomb(GameObject spawnerObj)
     {
         Instantiate(smokeBombParticles, spawnerObj.transform.position, Quaternion.identity);
@@ -266,10 +342,25 @@ public class OldtownAct1BeatManager : sceneBeatManager
     }
 
     // HELPER
+    // The death save runs with the bomb chain live, and these objects autosave their active state.
+    private void resetFactoryBomb()
+    {
+        foreach (GameObject item in factoryBombOnlyObjects)
+        {
+            item.SetActive(false);
+        }
+    }
+
     private IEnumerator initiateWalkingFactoryWorkerLoop()
     {
         foreach (NonCombatChar character in factoryWorkersWalking)
         {
+            if (getBeatProgress(0) >= 3) // factory's gone
+            {
+                character.gameObject.SetActive(false);
+                continue;
+            }
+
             EventManager.instance.startLoopingPath(character, new Vector3(Random.Range(-15f,-17f), Random.Range(-36f,-38f), 0f), 30f);
             yield return new WaitForSeconds(5f);
         }

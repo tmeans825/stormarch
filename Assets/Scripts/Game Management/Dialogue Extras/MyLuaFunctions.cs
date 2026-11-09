@@ -23,6 +23,7 @@ public class MyLuaFunctions : MonoBehaviour
         Lua.RegisterFunction("hasOrderAlignment", this, SymbolExtensions.GetMethodInfo(() => hasOrderAlignment()));
         Lua.RegisterFunction("hasFreedomAlignment", this, SymbolExtensions.GetMethodInfo(() => hasFreedomAlignment()));
         Lua.RegisterFunction("hasCommunityAlignment", this, SymbolExtensions.GetMethodInfo(() => hasCommunityAlignment()));
+        Lua.RegisterFunction("discoverLocation", this, SymbolExtensions.GetMethodInfo(() => discoverLocation("")));
     }
 
     void OnDisable()
@@ -61,6 +62,18 @@ public class MyLuaFunctions : MonoBehaviour
     public bool hasCommunityAlignment()
     {
         return (PlayerController.instance.currentAlignment==PlayerController.alignmentQuadrant.FreedomCommunity || PlayerController.instance.currentAlignment==PlayerController.alignmentQuadrant.OrderCommunity);
+    }
+
+    // Unlocks a fast-travel map location by its text-table name (e.g. "OLDTOWN"). Idempotent.
+    public void discoverLocation(string locationName)
+    {
+        if (LocationDiscoveryManager.instance == null)
+        {
+            Debug.LogWarning("discoverLocation('" + locationName + "'): no LocationDiscoveryManager in this scene.");
+            return;
+        }
+
+        LocationDiscoveryManager.instance.discoverLocation(locationName);
     }
 
     // CONDITIONS

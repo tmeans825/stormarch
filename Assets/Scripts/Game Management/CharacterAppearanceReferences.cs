@@ -119,7 +119,10 @@ public class CharacterAppearanceReferences : MonoBehaviour
             case TemplateLook.Sentinel:
                 selectedChests = sentinelChest;
                 selectedHair = new string[] { "Empty" };
+                selectedSkin = new string[] { "Empty" };
                 selectedLegs = new string[] { "Empty" };
+                // "Empty" only skips the swap, and a sentinel has no head to keep what the base NPC had
+                character.clearHeadSprites();
                 break;
             case TemplateLook.Scholar:
                 if (isMale)
