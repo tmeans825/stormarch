@@ -387,7 +387,17 @@ public class Critter : CombatChar
             else
                 anglerhareLight.transform.localPosition = lightRightPos;
 
-            anglerhareLight.GetComponent<LightBehavior>().enabled = true;
+            // Fade a world-rooted clone. The original is a long-lived prefab child cached by this
+            // Critter and must remain available for facing changes and respawn.
+            GameObject deathLight = Instantiate(
+                anglerhareLight,
+                anglerhareLight.transform.position,
+                anglerhareLight.transform.rotation,
+                ObjectPooler.instance.transform);
+            LightBehavior deathLightBehavior = deathLight.GetComponent<LightBehavior>();
+            if (deathLightBehavior != null)
+                deathLightBehavior.enabled = true;
+            anglerhareLight.SetActive(false);
         }
         base.triggerDeath(d);
     }
@@ -397,7 +407,10 @@ public class Critter : CombatChar
         // Restore the default before base re-applies the idle facing (setAnim -> signalDirectionChange),
         // so a left/right respawn facing wins and up/down keeps the prefab default.
         if (critterType == 0 && anglerhareLight != null)
+        {
+            anglerhareLight.SetActive(true);
             anglerhareLight.transform.localPosition = originalAnglerhareLightPos;
+        }
 
         base.respawnFromDeath();
 

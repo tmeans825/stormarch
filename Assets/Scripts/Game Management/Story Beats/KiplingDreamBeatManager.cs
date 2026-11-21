@@ -117,8 +117,10 @@ public class KiplingDreamBeatManager : sceneBeatManager
 
     private IEnumerator delayThenAnglerHareDie()
     {
-        deadAnglerhare.damageCharacter(10, deadAnglerhare.transform.position, false, false, true, false);
+        // The death actor was inactive until wolvoAttackTrigger. Give Unity one frame to run its
+        // Start chain before the lethal hit uses renderer, animator, and CombatChar caches.
         yield return null;
+        deadAnglerhare.damageCharacter(10, deadAnglerhare.transform.position, false, false, true, false);
     }
 
     public void startFinalCutscene()
