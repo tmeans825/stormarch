@@ -33,6 +33,14 @@ public class SaveManager : MonoBehaviour
         { "Wilds", "THE WILDS" }
     };
 
+    // Scenes that are saved in (so a save file resolves a location name) but are NOT map locations: they are
+    // never discovered or fast-travelled to, so they must stay out of the table above (which also drives
+    // isKnownLocation/isTravelableLocation and getCurrentActFilenameFromLocation). Currently the prologue.
+    private static readonly Dictionary<string, string> NON_TRAVELABLE_SCENENAME_TO_LOCATIONNAME_DICT = new Dictionary<string, string>
+    {
+        { "Adamantine", "ADAMANTINE" }
+    };
+
     // Map locations that share another location's scene. Each also needs a SubLocationZone with an
     // arrivalPoint in that scene; one-scene locations only need a row in the table above.
     private static readonly Dictionary<string, string> SUBLOCATION_TO_SCENENAME_DICT = new Dictionary<string, string>
@@ -129,6 +137,7 @@ public class SaveManager : MonoBehaviour
             ? getCurrentLocationName()
             : getLocationNameFromFilename(sceneName));
         slotFile.Save("Act", act);
+        slotFile.Save("PlayerName", getCurrentPlayerDisplayName());
         if (LocationDiscoveryManager.instance != null)
             slotFile.Save("DiscoveredLocations", LocationDiscoveryManager.instance.getDiscoveredLocations());
         slotFile.Save("ModelHair", InventoryMenu.instance.playerModel[0].GetComponent<Image>().sprite);
@@ -227,6 +236,28 @@ public class SaveManager : MonoBehaviour
         return true;
     }
 
+    private const string DEFAULT_PLAYER_DISPLAY_NAME = "JADEN HAYES";
+
+    // The player's current name comes from the FirstName/LastName dialogue variables
+    // (PlayerProfileApplier overrides them for non-default protagonists).
+    private string getCurrentPlayerDisplayName()
+    {
+        string first = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("FirstName").asString;
+        string last = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("LastName").asString;
+        string full = ((first ?? "").Trim() + " " + (last ?? "").Trim()).Trim();
+        return string.IsNullOrEmpty(full) ? DEFAULT_PLAYER_DISPLAY_NAME : full.ToUpper();
+    }
+
+    // Accessor for UI (save slot list) so UI scripts don't touch ES3 for the name directly.
+    // Saves written before the name was recorded fall back to the default protagonist.
+    public string getSlotPlayerDisplayName(string slotFileName)
+    {
+        string path = slotFileName + ".es3";
+        if (ES3.FileExists(path) && ES3.KeyExists("PlayerName", path))
+            return ES3.Load<string>("PlayerName", path);
+        return DEFAULT_PLAYER_DISPLAY_NAME;
+    }
+
     // OnApplicationQuit fires on PC/Mac quit but is unreliable on consoles & mobile
     // (which suspend rather than quit). Pause/Focus hooks cover those lifecycles.
     private void OnApplicationQuit()
@@ -251,7 +282,8 @@ public class SaveManager : MonoBehaviour
         string[] words = filename.Split('_');
         string val;
 
-        SCENENAME_TO_LOCATIONNAME_DICT.TryGetValue(words[1], out val);
+        if (!SCENENAME_TO_LOCATIONNAME_DICT.TryGetValue(words[1], out val))
+            NON_TRAVELABLE_SCENENAME_TO_LOCATIONNAME_DICT.TryGetValue(words[1], out val);
         if (val == null)
             Debug.LogWarning("Corresponding location name not found for " + filename + " file name.");
 

@@ -85,6 +85,33 @@ public class CanvasMaster : MonoBehaviour
         cutToBlackObj.SetActive(false); // just in case
     }
 
+    // Unscaled fade of the cut-to-black object, so it still runs while Time.timeScale is slowed or frozen.
+    // Yield on this from a coroutine; fading to black leaves the object active and opaque until fadeFromBlack.
+    public IEnumerator fadeBlack(bool toBlack, float duration)
+    {
+        CanvasGroup group = cutToBlackObj.GetComponent<CanvasGroup>();
+        if (group == null)
+            group = cutToBlackObj.AddComponent<CanvasGroup>();
+
+        float start = toBlack ? 0f : 1f;
+        float end = toBlack ? 1f : 0f;
+
+        group.alpha = start;
+        cutToBlackObj.SetActive(true);
+
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            group.alpha = Mathf.Lerp(start, end, Mathf.Clamp01(elapsed / duration));
+            yield return null;
+        }
+
+        group.alpha = end;
+        if (!toBlack)
+            cutToBlackObj.SetActive(false);
+    }
+
     private void returningToTitle()
     {
         GameEvents.current.onReturnToTitle -= returningToTitle;

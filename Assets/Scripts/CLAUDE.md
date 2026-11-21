@@ -120,7 +120,15 @@ Locations: `Character Hierarchy/`, enemies in `Enemy Scripts/`, player in `Playe
 
 ## Story Beats
 
-`StoryBeatManager.startNewBeat()` toggles GameObject ranges via `toggleBeatFinalIndex[]`. `beatIndex` serialized; on scene load, all beats up to current index are replayed to restore state.
+The live system is `sceneBeatManager` (`Game Management/Story Beats/`), one subclass per scene (`OwensAct1BeatManager`, `OldtownAct1BeatManager`, `WildsAct1BeatManager`, `AdamantineAct0BeatManager`). `beatMatrix` is an int[] of independent "beat lines" (each subclass documents its lines in `initializeData`). Advance with `progressBeat(line)` / `setBeat(line, v)`; dialogue reads it via the Lua `getBeatProgress(line)`. `loadBeats()` replays on every load, so it must only **restore end-state** (no cinematics, quest alerts, sounds or `progressBeat`) — keep one-shot transitions in the event methods, guarded by the current beat. Scene wiring uses `Beat Trigger.prefab` (`beatTrigger.cs`; persistence is the saved active state, and `autoDeactivate` fires once even when the target method rejects the call).
+
+⚠️ `sceneBeatManager` is a `DontDestroyOnLoad` singleton that never tears itself down; a manager that outlives its scene makes the next scene's manager destroy itself. `AdamantineAct0BeatManager` clears itself on `onReturnToTitle`.
+
+`StoryBeatManager.cs` is dead code (no prefab or scene references it).
+
+Reusable pieces: `PlayerProfileApplier` (per-scene protagonist name/look override; the save slot reads the name via `SaveManager.getSlotPlayerDisplayName`), `TimeFreezeController` (freeze-and-aim, ends on `onBulletCreate`, restores the prior timeScale), `CanvasMaster.fadeBlack` (unscaled fade), `CrateDropZone`. Scenes that are saved in but not fast-travel map locations (e.g. the standalone prologue `Act0_Adamantine`) go in `SaveManager.NON_TRAVELABLE_SCENENAME_TO_LOCATIONNAME_DICT`.
+
+**Building new scenes/levels**: use the project skills in `.claude/skills/` — `new-scene-toolkit` (generate scene YAML from the template, validators), `scene-barks-and-beats` (beat/bark/trigger conventions, beat manager template), `dialogue-db-authoring` (actors/quests/conversations) — and the `act-scene-builder` / `scene-yaml-reviewer` agents in `.claude/agents/`.
 
 ## Singleton Pattern
 
@@ -145,7 +153,7 @@ void Awake() {
 | `LootMaster.cs` | `Game Management/Inventory/` | Item factory + pickups |
 | `CharmBehaviorManager.cs` | `Game Management/Inventory/` | Charm effects via events |
 | `AudioManager.cs` | `Game Management/Sound/` | Sound playback |
-| `StoryBeatManager.cs` | `Game Management/Story Beats/` | Quest/story progression |
+| `sceneBeatManager.cs` | `Game Management/Story Beats/` | Per-scene beat matrix base class |
 | `CanvasMaster.cs` | `Game Management/UI/` | Vignette, letterbox, checkpoint text |
 | `HUDUIBehavior.cs` | `Game Management/UI/` | Ammo + magazine visualization |
 | `MouseManager.cs` | `Game Management/` | Cursor mode (pointer ↔ reticle) |

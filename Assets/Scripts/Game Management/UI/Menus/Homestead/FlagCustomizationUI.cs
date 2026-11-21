@@ -124,6 +124,9 @@ public class FlagCustomizationUI : MonoBehaviour
 
         HomesteadUIBehavior.instance.initializeFlags();
 
+        // The dialogue autosave fires when the conversation ends, before the design is chosen; persist it now.
+        SaveManager.instance.saveSceneData();
+
         AudioMaster.instance.PlaySound("Menu Close");
         PlayerController.instance.isCustomizing = false;
         PlayerController.instance.freezeChar(false);

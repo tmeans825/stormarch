@@ -111,7 +111,7 @@ public class SaveSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         location.gameObject.SetActive(true);
         act.gameObject.SetActive(true);
         playerRepresentation.SetActive(true); 
-        playerName.text = "JADEN HAYES"; // TO DO: LOAD NAME WHEN ABLE TO PUNCH IN
+        playerName.text = SaveManager.instance.getSlotPlayerDisplayName(fileToLoad);
         location.gameObject.GetComponent<LocalizeUI>().fieldName = ES3.Load<string>("WorldLocation", fileToLoad + ".es3");
         location.gameObject.GetComponent<LocalizeUI>().UpdateText();
         act.gameObject.GetComponent<LocalizeUI>().fieldName = "ACT " + ES3.Load<int>("Act", fileToLoad + ".es3");

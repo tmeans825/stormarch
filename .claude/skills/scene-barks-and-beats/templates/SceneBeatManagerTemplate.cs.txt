@@ -1,0 +1,89 @@
+// TEMPLATE (not compiled): copy to Assets/Scripts/Game Management/Story Beats/<Scene>BeatManager.cs, rename, create a .meta with a new guid,
+// add an Assembly-CSharp.csproj <Compile Include> line, then build the prefab with scenegen.SceneBuilder.make_beat_manager_prefab(...).
+using System.Collections;
+using UnityEngine;
+using PixelCrushers.DialogueSystem;
+
+public class SceneNameBeatManager : sceneBeatManager
+{
+    // ---- Beat lines (document EVERY line and value here, like Owens/Oldtown/Wilds do) ----
+    // Beat line 0 - main arc
+    //   1 => ...
+    //   2 => ...
+    private const int LINE_MAIN = 0;
+
+    // Scene refs are set by PrefabInstance overrides in the scene; never ES3-serialize them.
+    [ES3NonSerializable] public GameObject somethingToToggle;
+    [ES3NonSerializable] public NonCombatChar someNpc;
+
+    // ---------- lifecycle ----------
+    private bool subscribedToTitle = false;
+
+    private void OnEnable() { subscribeToTitle(); }
+    protected override void Start() { base.Start(); subscribeToTitle(); }
+    private void OnDisable() { unsubscribeFromTitle(); }
+
+    private void subscribeToTitle()
+    {
+        if (subscribedToTitle || GameEvents.current == null) return;   // current can be null during load
+        GameEvents.current.onReturnToTitle += handleReturnToTitle;
+        subscribedToTitle = true;
+    }
+
+    private void unsubscribeFromTitle()
+    {
+        if (!subscribedToTitle || GameEvents.current == null) return;
+        GameEvents.current.onReturnToTitle -= handleReturnToTitle;
+        subscribedToTitle = false;
+    }
+
+    // ONLY for a manager that must not outlive its scene (e.g. a standalone scene that ends at the title screen):
+    // sceneBeatManager is DontDestroyOnLoad and would otherwise destroy the next scene's manager.
+    private void handleReturnToTitle()
+    {
+        unsubscribeFromTitle();
+        GameEvents.current.onPreviousSceneDataLoaded -= previousSceneDataLoaded;
+        if (instance == this) instance = null;
+        Destroy(gameObject);
+    }
+
+    protected override void initializeData()
+    {
+        beatMatrix = new int[1];   // one slot per beat line
+    }
+
+    protected override void previousSceneDataLoaded()
+    {
+        base.previousSceneDataLoaded();
+        // first-entry only setup: guard on the beat so a reload doesn't repeat it
+        if (beatMatrix[LINE_MAIN] == 0)
+            setBeat(LINE_MAIN, 1);
+    }
+
+    // RESTORE END-STATE ONLY. No cinematics, quest changes, sounds, fades, or progressBeat here: this runs on every load.
+    protected override void loadBeats()
+    {
+        int main = beatMatrix[LINE_MAIN];
+        if (somethingToToggle != null) somethingToToggle.SetActive(main < 2);
+        if (someNpc != null && main >= 2) someNpc.startFollowingPlayer();
+    }
+
+    // ---------- EVENTS: wired from Beat Triggers / dialogue; each guards on the current beat ----------
+    public void onSomethingHappened()
+    {
+        if (beatMatrix[LINE_MAIN] != 1) return;   // one-shot + safe to call repeatedly (wire the trigger with one_shot=False)
+        setBeat(LINE_MAIN, 2);
+        if (QuestLog.GetQuestState("Some Quest") == QuestState.Unassigned)
+            QuestLog.StartQuest("Some Quest");     // alerts are explicit
+    }
+
+    // Conversation then continue
+    private IEnumerator conversationThenRoutine(string title)
+    {
+        DialogueManager.StartConversation(title);
+        float waited = 0f;
+        while (!DialogueManager.isConversationActive && waited < 2f) { waited += Time.unscaledDeltaTime; yield return null; }
+        while (DialogueManager.isConversationActive) yield return null;
+        // ...continue the beat here
+    }
+}

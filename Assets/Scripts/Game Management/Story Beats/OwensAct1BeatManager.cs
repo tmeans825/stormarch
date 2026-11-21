@@ -37,15 +37,28 @@ public class OwensAct1BeatManager : sceneBeatManager
     public GameObject owenNewRheaTrigger;
     [ES3NonSerializable]
     public GameObject milo;
+    [ES3NonSerializable]
+    public Transform homesteadStartPoint; // back-of-farm workbench area where the level-up intro begins
 
 
     private const int HOUSE_BEAT = 5;            // back at the house, pre-bed
     private const int BED_BEAT = 6;              // in bed, dream pending
     private const int WOKE_FROM_DREAM_BEAT = 7;  // returned from the dream; wake-up setup runs once
+    private const int FULLY_WOKEN_BEAT = 8;      // player is fully woken up, ready to go
+
+    private const int HOMESTEAD_LINE = 2;        // beat line for the homestead level-up intro
+    private const int BEAT_LINE_COUNT = 3;       // older saves carry fewer lines; loadBeats grows the array
+
+    private const string HANK_QUEST = "Where is Hank Alers?";
+    private const int HANK_QUEST_KRESS_ENTRY = 6;
+    private const string WORKBENCH_INTRO_CONVO = "Homestead/Act 1/Owen/Workbench Intro";
+    private const string PLACE_FLAGS_CONVO = "Homestead/Act 1/Owen/Place Flags";
+    private const string OWEN_DEFAULT_CONVO = "Homestead/Act 1/Owen/Intro 2";
+    private static readonly Vector3 HOMESTEAD_OWEN_OFFSET = new Vector3(1.6f, -0.4f, 0f);
 
     protected override void initializeData()
     {
-        beatMatrix = new int[2];
+        beatMatrix = new int[BEAT_LINE_COUNT];
 
         // Beat line 0 - Owen Welcome:
         // 1 => Owen started running back to house
@@ -60,6 +73,22 @@ public class OwensAct1BeatManager : sceneBeatManager
         // Beat line 1 - Melina's injury
         // 1 => Melina is hurt
 
+        // Beat line 2 - Homestead level-up (starts after quest "Where is Hank Alers?" entry 6 succeeds)
+        // 0 => Not started
+        // 1 => Workbench intro talk finished, tier 1 unlocked; flag creation waits for the next scene entry
+        // 2 => Player re-entered the scene since tier 1 unlocked; Owen offers flag placement
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        GameEvents.current.onSceneTransitionComplete += tryAdvanceHomesteadLevelUp;
+    }
+
+    private void OnDestroy()
+    {
+        if (GameEvents.current != null)
+            GameEvents.current.onSceneTransitionComplete -= tryAdvanceHomesteadLevelUp;
     }
 
     protected override void previousSceneDataLoaded()
@@ -70,6 +99,10 @@ public class OwensAct1BeatManager : sceneBeatManager
 
     protected override void loadBeats()
     {
+        // Saves from before the homestead line existed carry a shorter matrix.
+        if (beatMatrix.Length < BEAT_LINE_COUNT)
+            System.Array.Resize(ref beatMatrix, BEAT_LINE_COUNT);
+
         if (shouldSkipBeats())
             beatMatrix[0] = WOKE_FROM_DREAM_BEAT;
 
@@ -134,9 +167,67 @@ public class OwensAct1BeatManager : sceneBeatManager
 
             fourthChair.SetActive(true);
         }
+
+        // Flag placement is offered once the player has re-entered since tier 1 unlocked, until a design exists.
+        if (beatMatrix[HOMESTEAD_LINE] >= 2 && PlayerController.instance.flagDesignInt == -1)
+            setOwenConversation(PLACE_FLAGS_CONVO);
+    }
+
+    private void setOwenConversation(string conversation)
+    {
+        storyOwen.GetComponent<DialogueSystemTrigger>().conversation = conversation;
     }
 
     // EVENTS
+
+    // Runs after every scene load completes (after loadBeats), so it can safely override positions loadBeats set.
+    private void tryAdvanceHomesteadLevelUp()
+    {
+        // This manager is DontDestroyOnLoad, so the event also reaches us in other scenes.
+        if (this != sceneBeatManager.instance || storyOwen == null)
+            return;
+
+        if (beatMatrix.Length < BEAT_LINE_COUNT || beatMatrix[0] < FULLY_WOKEN_BEAT)
+            return;
+
+        if (beatMatrix[HOMESTEAD_LINE] == 1)
+        {
+            // Tier 1 was unlocked on an earlier visit: Owen can now help with flags.
+            setBeat(HOMESTEAD_LINE, 2);
+            if (PlayerController.instance.flagDesignInt == -1)
+                setOwenConversation(PLACE_FLAGS_CONVO);
+            return;
+        }
+
+        if (beatMatrix[HOMESTEAD_LINE] != 0 || homesteadStartPoint == null || PlayerController.instance.isInCombat)
+            return;
+
+        if (QuestLog.GetQuestEntryState(HANK_QUEST, HANK_QUEST_KRESS_ENTRY) != QuestState.Success)
+            return;
+
+        // State-derived and one-shot: nothing is saved until the talk completes, so quitting mid-talk replays it.
+        Vector3 start = homesteadStartPoint.position;
+        PlayerController.instance.transform.position = start;
+        PlayerController.instance.faceObject(Vector2.right, false);
+        storyOwen.transform.position = start + HOMESTEAD_OWEN_OFFSET;
+        storyOwen.GetComponent<NonCombatChar>().faceObject(Vector2.left, false);
+
+        DialogueManager.StartConversation(WORKBENCH_INTRO_CONVO, PlayerController.instance.transform, storyOwen.transform);
+    }
+
+    // Dialogue scene event on the last line of "Workbench Intro".
+    public void completeWorkbenchIntro()
+    {
+        if (beatMatrix[HOMESTEAD_LINE] != 0)
+            return;
+
+        // Existing/debug saves may already be at tier 1; tierUp is not idempotent.
+        if (PlayerController.instance.homesteadTier < 1)
+            HomesteadUIBehavior.instance.tierUp();
+
+        setBeat(HOMESTEAD_LINE, 1);
+    }
+
     public void startOwenWalking()
     {
         storyOwen.GetComponent<NonCombatChar>().startMovingWaitingForChar(new Vector3(22.2f, -24.33f, 0f));

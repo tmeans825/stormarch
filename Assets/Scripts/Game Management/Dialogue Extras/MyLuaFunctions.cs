@@ -24,6 +24,7 @@ public class MyLuaFunctions : MonoBehaviour
         Lua.RegisterFunction("hasFreedomAlignment", this, SymbolExtensions.GetMethodInfo(() => hasFreedomAlignment()));
         Lua.RegisterFunction("hasCommunityAlignment", this, SymbolExtensions.GetMethodInfo(() => hasCommunityAlignment()));
         Lua.RegisterFunction("discoverLocation", this, SymbolExtensions.GetMethodInfo(() => discoverLocation("")));
+        Lua.RegisterFunction("startBreadLine", this, SymbolExtensions.GetMethodInfo(() => startBreadLine()));
     }
 
     void OnDisable()
@@ -74,6 +75,19 @@ public class MyLuaFunctions : MonoBehaviour
         }
 
         LocationDiscoveryManager.instance.discoverLocation(locationName);
+    }
+
+    // Prologue only: starts the long bread-line wait. No-op outside the Adamantine scene.
+    public void startBreadLine()
+    {
+        AdamantineAct0BeatManager manager = sceneBeatManager.instance as AdamantineAct0BeatManager;
+        if (manager == null)
+        {
+            Debug.LogWarning("startBreadLine(): no Adamantine beat manager in this scene.");
+            return;
+        }
+
+        manager.standInBreadLine();
     }
 
     // CONDITIONS
